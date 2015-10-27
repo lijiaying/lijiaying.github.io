@@ -860,27 +860,38 @@ body .markdown-body
   float: left;
   margin: 0.3em 0 0.25em -1.6em;
   vertical-align: middle;
-}</style><title>simple2</title></head><body><article class="markdown-body"><h1>
-<a id="user-content-simple2" class="anchor" href="#simple2" aria-hidden="true"><span class="octicon octicon-link"></span></a>simple2</h1>
+}</style><title>f2</title></head><body><article class="markdown-body"><h1>
+<a id="user-content-f2" class="anchor" href="#f2" aria-hidden="true"><span class="octicon octicon-link"></span></a>f2</h1>
 
 <h2>
 <a id="user-content-source" class="anchor" href="#source" aria-hidden="true"><span class="octicon octicon-link"></span></a>source</h2>
 
-<p>Self build.</p>
+<p><a href="http://theory.stanford.edu/%7Eaiken/publications/papers/cav12a.pdf">Interpolants as Classifier</a> by Rahul Sharma, Aditya V. Nori, and Alex Aiken</p>
 
 <h2>
 <a id="user-content-program" class="anchor" href="#program" aria-hidden="true"><span class="octicon octicon-link"></span></a>program</h2>
 
-<div class="highlight highlight-source-c"><pre><span class="pl-k">int</span> <span class="pl-en">main</span> () {
-    <span class="pl-k">int</span> x, y;
+<div class="highlight highlight-source-c"><pre><span class="pl-k">void</span> <span class="pl-en">main</span> () {
 
-    <span class="pl-c">//assume (x + y &gt;= 0)</span>
-    <span class="pl-k">while</span> (y &gt; <span class="pl-c1">0</span>) {
-        x++;
-        y--;
+  <span class="pl-k">int</span> x, y, z, w;
+  x=y=z=w=<span class="pl-c1">0</span>;
+
+
+  <span class="pl-k">while</span> (<span class="pl-c1">nondet</span>() ) {
+
+    <span class="pl-k">if</span> (<span class="pl-c1">nondet</span>()) {x++; y = y+<span class="pl-c1">2</span>;}
+    <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-c1">nondet</span>()) {
+        <span class="pl-k">if</span> (x &gt;= <span class="pl-c1">4</span>) {x++; y = y+<span class="pl-c1">3</span>; z = z+<span class="pl-c1">10</span>; w = w+<span class="pl-c1">10</span>;}
     }
-    <span class="pl-c">// assert (y &gt; 0);</span>
-    <span class="pl-k">return</span> <span class="pl-c1">0</span>;
+    <span class="pl-k">else</span> <span class="pl-k">if</span> (x &gt;= z &amp;&amp; w &gt;= y+<span class="pl-c1">1</span>) {x = -x; y = -y; }
+    x = x;  <span class="pl-c">/* this works around a VC gen bug */</span>
+  }
+
+  <span class="pl-k">if</span> (<span class="pl-c1">3</span>*x &lt;= y-<span class="pl-c1">1</span>)
+    <span class="pl-k">goto</span> ERROR;
+
+  <span class="pl-k">return</span>;
+ERROR:;
 }</pre></div>
 
 <h2>
@@ -890,38 +901,37 @@ body .markdown-body
 #<span class="pl-k">include</span><span class="pl-s"><span class="pl-pds">&lt;</span>time.h<span class="pl-pds">&gt;</span></span>
 #<span class="pl-k">include</span><span class="pl-s"><span class="pl-pds">&lt;</span>stdlib.h<span class="pl-pds">&gt;</span></span>
 #<span class="pl-k">include</span><span class="pl-s"><span class="pl-pds">&lt;</span>iostream<span class="pl-pds">&gt;</span></span>
+#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">"</span>../header.h<span class="pl-pds">"</span></span>
 using namespace std;
-
 
 <span class="pl-k">bool</span> passP = <span class="pl-c1">false</span>;
 <span class="pl-k">bool</span> passQ = <span class="pl-c1">false</span>;
 
 <span class="pl-k">int</span> <span class="pl-en">main</span> (<span class="pl-k">int</span> argc, <span class="pl-k">char</span>** argv) {
+    <span class="pl-c1">srand</span>(<span class="pl-c1">time</span>(<span class="pl-c1">NULL</span>));
+    <span class="pl-k">int</span> x, y, z, w;
     <span class="pl-k">if</span> (argc &lt; <span class="pl-c1">3</span>) <span class="pl-k">return</span> -<span class="pl-c1">1</span>;
-    <span class="pl-k">int</span> x = <span class="pl-c1">atoi</span>(argv[<span class="pl-c1">1</span>]);
-    <span class="pl-k">int</span> y = <span class="pl-c1">atoi</span>(argv[<span class="pl-c1">2</span>]);
+    x = <span class="pl-c1">atoi</span>(argv[<span class="pl-c1">1</span>]);
+    y = <span class="pl-c1">atoi</span>(argv[<span class="pl-c1">2</span>]);
+    z=w=<span class="pl-c1">0</span>;
 
-    <span class="pl-c">//Precondition: x + y &gt;= 0</span>
-    <span class="pl-c">//assume (x + y &gt;= 0)</span>
-    <span class="pl-k">if</span> (x + y &gt; <span class="pl-c1">0</span>)
+    <span class="pl-k">if</span> (<span class="pl-c1">3</span> * x &gt; y - <span class="pl-c1">1</span>)
         passP = <span class="pl-c1">true</span>;
-    <span class="pl-k">if</span> (passP) 
-        cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>? 1 1:<span class="pl-pds">"</span></span> &lt;&lt; x &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
-    <span class="pl-k">else</span>
-        cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>? -1 1:<span class="pl-pds">"</span></span> &lt;&lt; x &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
 
-    <span class="pl-k">while</span> (y &gt; <span class="pl-c1">0</span>) {
-    <span class="pl-k">if</span> (passP) 
-        cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>? 1 1:<span class="pl-pds">"</span></span> &lt;&lt; x &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
-    <span class="pl-k">else</span>
-        cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>? -1 1:<span class="pl-pds">"</span></span> &lt;&lt; x &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
-        x++;
-        y--;
+    <span class="pl-k">while</span> (<span class="pl-c1">nondet</span>() ) {
+        <span class="pl-k">if</span> (passP) 
+            cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>? 1 1:<span class="pl-pds">"</span></span> &lt;&lt; x  &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
+        <span class="pl-k">else</span>
+            cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>? -1 1:<span class="pl-pds">"</span></span> &lt;&lt; x &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
+        <span class="pl-k">if</span> (<span class="pl-c1">nondet</span>()) {x++; y = y+<span class="pl-c1">2</span>;}
+        <span class="pl-k">else</span> <span class="pl-k">if</span> (<span class="pl-c1">nondet</span>()) {
+            <span class="pl-k">if</span> (x &gt;= <span class="pl-c1">4</span>) {x++; y = y+<span class="pl-c1">3</span>; z = z+<span class="pl-c1">10</span>; w = w+<span class="pl-c1">10</span>;}
+        }
+        <span class="pl-k">else</span> <span class="pl-k">if</span> (x &gt;= z &amp;&amp; w &gt;= y+<span class="pl-c1">1</span>) {x = -x; y = -y; }
+        x = x;  <span class="pl-c">/* this works around a VC gen bug */</span>
     }
 
-    <span class="pl-c">// Postcondition: y &gt; 0</span>
-    <span class="pl-c">// assert (y &gt; 0);</span>
-    <span class="pl-k">if</span> (x &gt; <span class="pl-c1">0</span>)
+    <span class="pl-k">if</span> (<span class="pl-c1">3</span> * x &gt; y - <span class="pl-c1">1</span>)
         passQ = <span class="pl-c1">true</span>;
     <span class="pl-k">if</span> (passP) {
         <span class="pl-k">if</span> (passQ) cout &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span>+ 1 1:<span class="pl-pds">"</span></span> &lt;&lt; x &lt;&lt; <span class="pl-s"><span class="pl-pds">"</span> 2:<span class="pl-pds">"</span></span> &lt;&lt; y &lt;&lt; endl;
@@ -932,26 +942,37 @@ using namespace std;
     }
 
     <span class="pl-k">return</span> <span class="pl-c1">0</span>;
-}</pre></div>
+ERROR:
+    <span class="pl-k">return</span> -<span class="pl-c1">1</span>;
+}
+</pre></div>
 
 <h2>
 <a id="user-content-selective-learning-results" class="anchor" href="#selective-learning-results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Selective Learning Results:</h2>
 
 <p><a href="https://github.com/lijiaying/FIIF/blob/master/examples/f1a/out2">out2</a></p>
 
-<pre><code>************************************** start **************************************************************
- ...1...svm... 0.0131593498743006[0]  +  0.0131561901472478[1] &gt;= -0.605443844391729    [100% (448/448)]
- ...2...svm... 0.0263145523131833[0]  +  0.0263145523131833[1] &gt;= -0.2105634306045  [100% (517/517)]
- ...3...svm... 0.0526315789473684[0]  +  0.0526315789473684[1] &gt;= 0.578947368421052 [100% (719/719)]
- ...4...svm... 0.105263157894737[0]  +  0.105263157894737[1] &gt;= 0.157894736842104   [100% (884/884)]
- ...5...svm... 0.222208045627032[0]  +  0.222198932101551[1] &gt;= -0.778584831089679  [100% (1029/1029)]
- ...6...svm... 0.399974052950587[0]  +  0.399964786147216[1] &gt;= -0.600832158942527  [100% (1140/1140)]
- ...7...svm... 0.666662456313786[0]  +  0.666661554095313[1] &gt;= -0.33341603669388   [100% (1396/1396)]
- ...8...svm... 0.999999999999947[0]  +  1.00000000000006[1] &gt;= 9.48702227887566e-12 [100% (1493/1493)]
- ...9...svm... 1.99918918663626[0]  +  1.99919907460411[1] &gt;= 1.00004943983868  [100% (1499/1499)]
- ...10...svm... 1.99980958466926[0]  +  1.99980585103538[1] &gt;= 0.99948475851852 [100% (1704/1704)]
- ...11...svm... 1.99980958466926[0]  +  1.99980585103538[1] &gt;= 0.99948475851852 [100% (1790/1790)]
+<pre><code>make: 'ALL' is up to date.
+************************************** start **************************************************************
+ ...1...svm... 0.0192307692307692[0]  +  -0.0242859505900291[1] &gt;= -0.561757532845297   [100% (8/8)]
+ ...2...svm... 0.0684355812975268[0]  +  -0.0422406251990895[1] &gt;= -1.33106266901083    [100% (16/16)]
+ ...3...svm... 0.580465245972459[0]  +  -0.129013646135082[1] &gt;= 4.67486952050626   [100% (24/24)]
+ ...4...svm... 0.689323976014835[0]  +  -0.20679719280445[1] &gt;= 1.82622830166088    [100% (32/32)]
+ ...5...svm... 5.19741679324255[0]  +  -1.99900645893968[1] &gt;= -21.7896671729832    [100% (40/40)]
+ ...6...svm... 5.26084021805149[0]  +  -1.99911928285955[1] &gt;= -20.149458393721 [100% (48/48)]
+ ...7...svm... 6.00034991454838[0]  +  -2.00011663818302[1] &gt;= -1.00000000001592    [100% (56/56)]
+ ...8...svm... 5.99972984527886[0]  +  -1.99991687547094[1] &gt;= -1.00060265287902    [100% (64/64)]
+ ...9...svm... 5.99972920033177[0]  +  -1.99991667702477[1] &gt;= -1.00060409153957    [100% (72/72)]
+ ...10...svm... 5.99966675762788[0]  +  -1.99988238504531[1] &gt;= -0.999431527752961  [100% (80/80)]
+ ...11...svm... 5.99700937868947[0]  +  -1.99900312622971[1] &gt;= -0.999999999994088  [100% (88/88)]
+ ...12...svm... 5.99970708000365[0]  +  -1.99989661647191[1] &gt;= -0.99944862119446   [100% (96/96)]
+ ...13...svm... 5.99970722642811[0]  +  -1.99989666815113[1] &gt;= -0.999448896799095  [100% (104/104)]
+ ...14...svm... 5.99700712308898[0]  +  -1.99900237436293[1] &gt;= -0.999999999994543  [100% (112/112)]
+ ...15...svm... 5.99992416506973[0]  +  -1.99996966602794[1] &gt;= -0.999514656446991  [100% (120/120)]
+ ...16...svm... 5.99992992390881[0]  +  -1.99997196956451[1] &gt;= -0.999635604386185  [100% (128/128)]
+ ...17...svm... 5.99989277734551[0]  +  -1.99996936495609[1] &gt;= -1.00049016071716   [100% (136/136)]
+ ...18...svm... 5.99989277734551[0]  +  -1.99996936495609[1] &gt;= -1.00049016071716   [100% (144/144)]
  ...*************************************  end  *************************************************************
-adjust coefficiency...&gt;&gt;  2[0]  +  2[1] &gt;= 1
+adjust coefficiency...&gt;&gt;  6[0]  +  -2[1] &gt;= -1
 </code></pre>
 </article></body></html>

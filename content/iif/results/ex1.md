@@ -76,10 +76,10 @@ int main (int argc, char** argv) {
     // assert (y > 0);
     if (xa + 2 * ya >= 0)
         passQ = true;
-    if (passP) { // pass Precondition, Q should be passed!
+    if (passP) {
         if (passQ) cout << "+ 1 1:" << xa << " 2:" << ya << endl;
-        else cout << "x 1 1:" << xa << " 2:" << ya << endl;  // cerr << "!BUG! input:" << atoi(argv[1]) << " " << atoi(argv[2]) << endl;
-    } else { // not pass Precondition, if not pass Postcondition, all are negative samples.
+        else cout << "x 1 1:" << xa << " 2:" << ya << endl;
+    } else {
         if (passQ) cout << "- -1 1:" << xa << " 2:" << ya << endl;
         else cout << "+ -1 1:" << xa << " 2:" << ya << endl;
     }

@@ -1,41 +1,91 @@
-# IIF experiment results:
+# simple2
 
-This is the result of our implementation of the paper [An Invariant Inference Framework by
-Active Learning and SVMs](./IIF.pdf) by Li Jiaying.
+## source 
+Self build.
 
-For you to run the experiments on your own machine, please follow the steps below to set up your experiment environment.
+## program
+```c
+int main () {
+	int x, y;
 
-## Setup:
-
-Dependencies:
-
-* [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) remember to put {libsvm}/bin folder into $PATH
-* [klee](https://klee.github.io/)
-
-Optional dependencies:
-
-* [libdwarf](http://pkgs.fedoraproject.org/repo/pkgs/libdwarf/) for C programs
-
-**NOTE**: If you have difficulty in installing libdwarf, the following page may help you. 
-[building hhvm dependencies]
-(https://community.webfaction.com/questions/18567/building-hhvm-dependencies-libdwarf-not-finding-libelf)
-```
-wget 'http://www.prevanders.net/libdwarf-20140413.tar.gz'
-tar -xzf libdwarf-20140413.tar.gz
-cd dwarf-20140413/libdwarf
-export CPPFLAGS="-I$HOME/include $CPPFLAGS"
-export LDFLAGS="-L$HOME/lib $LDFLAGS"
-./configure --prefix=$HOME
-make
-cp ./dwarf.h $HOME/include
-cp ./libdwarf.h $HOME/include
-cp ./libdwarf.a $HOME/lib
+	//assume (x + y >= 0)
+	while (y > 0) {
+		x++;
+		y--;
+	}
+	// assert (y > 0);
+	return 0;
+}
 ```
 
-## Experiments results:
-* [simple2](./simple2.html)
-* [simple3](./simple3.html)
-* [ex1](ex1.html)
-* [f1a](f1a.html)
-* [f2](f2.html)
-* [substring1](substring1.html)
+
+## program after instrumentation:
+```c
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#include<iostream>
+using namespace std;
+
+
+bool passP = false;
+bool passQ = false;
+
+int main (int argc, char** argv) {
+	if (argc < 3) return -1;
+	int x = atoi(argv[1]);
+	int y = atoi(argv[2]);
+
+	//Precondition: x + y >= 0
+	//assume (x + y >= 0)
+	if (x + y > 0)
+		passP = true;
+	if (passP) 
+		cout << "? 1 1:" << x << " 2:" << y << endl;
+	else
+		cout << "? -1 1:" << x << " 2:" << y << endl;
+
+	while (y > 0) {
+	if (passP) 
+		cout << "? 1 1:" << x << " 2:" << y << endl;
+	else
+		cout << "? -1 1:" << x << " 2:" << y << endl;
+		x++;
+		y--;
+	}
+
+	// Postcondition: y > 0
+	// assert (y > 0);
+	if (x > 0)
+		passQ = true;
+	if (passP) {
+		if (passQ) cout << "+ 1 1:" << x << " 2:" << y << endl;
+		else cout << "x 1 1:" << x << " 2:" << y << endl;
+	} else {
+		if (passQ) cout << "- -1 1:" << x << " 2:" << y << endl;
+		else cout << "+ -1 1:" << x << " 2:" << y << endl;
+	}
+
+	return 0;
+}
+```
+
+## Selective Learning Results:
+[out2](https://github.com/lijiaying/FIIF/blob/master/examples/f1a/out2)
+
+```
+************************************** start **************************************************************
+ ...1...svm... 0.0131593498743006[0]  +  0.0131561901472478[1] >= -0.605443844391729	[100% (448/448)]
+ ...2...svm... 0.0263145523131833[0]  +  0.0263145523131833[1] >= -0.2105634306045	[100% (517/517)]
+ ...3...svm... 0.0526315789473684[0]  +  0.0526315789473684[1] >= 0.578947368421052	[100% (719/719)]
+ ...4...svm... 0.105263157894737[0]  +  0.105263157894737[1] >= 0.157894736842104	[100% (884/884)]
+ ...5...svm... 0.222208045627032[0]  +  0.222198932101551[1] >= -0.778584831089679	[100% (1029/1029)]
+ ...6...svm... 0.399974052950587[0]  +  0.399964786147216[1] >= -0.600832158942527	[100% (1140/1140)]
+ ...7...svm... 0.666662456313786[0]  +  0.666661554095313[1] >= -0.33341603669388	[100% (1396/1396)]
+ ...8...svm... 0.999999999999947[0]  +  1.00000000000006[1] >= 9.48702227887566e-12	[100% (1493/1493)]
+ ...9...svm... 1.99918918663626[0]  +  1.99919907460411[1] >= 1.00004943983868	[100% (1499/1499)]
+ ...10...svm... 1.99980958466926[0]  +  1.99980585103538[1] >= 0.99948475851852	[100% (1704/1704)]
+ ...11...svm... 1.99980958466926[0]  +  1.99980585103538[1] >= 0.99948475851852	[100% (1790/1790)]
+ ...*************************************  end  *************************************************************
+adjust coefficiency...>>  2[0]  +  2[1] >= 1
+```
