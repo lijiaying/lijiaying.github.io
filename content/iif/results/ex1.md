@@ -1,6 +1,6 @@
-#ex1
+# ex1
 
-##source 
+## source 
 [Interpolants as Classifier](http://theory.stanford.edu/~aiken/publications/papers/cav12a.pdf) by Rahul Sharma, Aditya V. Nori, and Alex Aiken
 
 ## program
@@ -31,11 +31,11 @@ int main () {
 
 
 ## program after instrumentation:
-```
-#include<stdio.h>
-#include<time.h>
-#include<stdlib.h>
-#include<iostream>
+```c
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <iostream>
 #include "../header.h"
 using namespace std;
 
