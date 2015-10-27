@@ -4,7 +4,7 @@
 [Interpolants as Classifier](http://theory.stanford.edu/~aiken/publications/papers/cav12a.pdf) by Rahul Sharma, Aditya V. Nori, and Alex Aiken
 
 ## program
-```
+```c
 int main () {
 
     int x;

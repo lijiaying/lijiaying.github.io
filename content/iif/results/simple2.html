@@ -1,0 +1,33 @@
+<h1 id="iif-experiment-results">IIF experiment results:</h1>
+<p>This is the result of our implementation of the paper <a href="./IIF.pdf">An Invariant Inference Framework by Active Learning and SVMs</a> by Li Jiaying.</p>
+<p>For you to run the experiments on your own machine, please follow the steps below to set up your experiment environment.</p>
+<h2 id="setup">Setup:</h2>
+<p>Dependencies:</p>
+<ul>
+<li><a href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/">libsvm</a> remember to put {libsvm}/bin folder into $PATH</li>
+<li><a href="https://klee.github.io/">klee</a></li>
+</ul>
+<p>Optional dependencies:</p>
+<ul>
+<li><a href="http://pkgs.fedoraproject.org/repo/pkgs/libdwarf/">libdwarf</a> for C programs</li>
+</ul>
+<p><strong>NOTE</strong>: If you have difficulty in installing libdwarf, the following page may help you. [building hhvm dependencies] (https://community.webfaction.com/questions/18567/building-hhvm-dependencies-libdwarf-not-finding-libelf)</p>
+<pre><code>wget &#39;http://www.prevanders.net/libdwarf-20140413.tar.gz&#39;
+tar -xzf libdwarf-20140413.tar.gz
+cd dwarf-20140413/libdwarf
+export CPPFLAGS=&quot;-I$HOME/include $CPPFLAGS&quot;
+export LDFLAGS=&quot;-L$HOME/lib $LDFLAGS&quot;
+./configure --prefix=$HOME
+make
+cp ./dwarf.h $HOME/include
+cp ./libdwarf.h $HOME/include
+cp ./libdwarf.a $HOME/lib</code></pre>
+<h2 id="experiments-results">Experiments results:</h2>
+<ul>
+<li><a href="./simple2.html">simple2</a></li>
+<li><a href="./simple3.html">simple3</a></li>
+<li><a href="ex1.html">ex1</a></li>
+<li><a href="f1a.html">f1a</a></li>
+<li><a href="f2.html">f2</a></li>
+<li><a href="substring1.html">substring1</a></li>
+</ul>
