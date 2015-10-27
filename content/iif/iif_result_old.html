@@ -1015,23 +1015,18 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>iif_result</title></head><body><article class="markdown-body"><h1 id="iif-experiment-results"><a name="user-content-iif-experiment-results" href="#iif-experiment-results" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>IIF experiment results:</h1>
-<p>This is the result of our implementation of the paper <a href="///C://Users/lijiaying/Dropbox/lijiaying.github.io/content/iif/IIF.pdf">An Invariant Inference Framework by<br />
-Active Learning and SVMs</a> by Li Jiaying.</p>
+</style><title>results</title></head><body><article class="markdown-body"><h1 id="iif-experiment-results"><a name="user-content-iif-experiment-results" href="#iif-experiment-results" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>IIF experiment results:</h1>
+<p>This is the result of our implementation of the paper <a href="http://arxiv.org/abs/1508.06576">Using SVM to learn loop invariant</a> by Li Jiaying.</p>
 <p>For you to run the experiments on your own machine, please follow the steps below to set up your experiment environment.</p>
 <h2 id="setup"><a name="user-content-setup" href="#setup" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Setup:</h2>
-<p>Dependencies:</p>
-<ul>
-<li><a href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/">libsvm</a> remember to put {libsvm}/bin folder into $PATH</li>
-<li><a href="https://klee.github.io/">klee</a></li>
-</ul>
-<p>Optional dependencies:</p>
-<ul>
-<li><a href="http://pkgs.fedoraproject.org/repo/pkgs/libdwarf/">libdwarf</a> for C programs</li>
-</ul>
+<p>Dependencies:<br />
+<em> <a href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/">libsvm</a> remember to put {libsvm}/bin folder into $PATH<br />
+</em> <a href="https://klee.github.io/">klee</a></p>
+<p>Optional dependencies:<br />
+<em> <a href="http://pkgs.fedoraproject.org/repo/pkgs/libdwarf/">libdwarf</a> for C programs<br />
+</em> CUDA 6.5+</p>
 <p><strong>NOTE</strong>: If you have difficulty in installing libdwarf, the following page may help you. <br />
-[building hhvm dependencies]<br />
-(<a href="https://community.webfaction.com/questions/18567/building-hhvm-dependencies-libdwarf-not-finding-libelf">https://community.webfaction.com/questions/18567/building-hhvm-dependencies-libdwarf-not-finding-libelf</a>)<br />
+<a href="https://community.webfaction.com/questions/18567/building-hhvm-dependencies-libdwarf-not-finding-libelf">building hhvm dependencies</a><br />
 <pre><code>wget 'http://www.prevanders.net/libdwarf-20140413.tar.gz'
 tar -xzf libdwarf-20140413.tar.gz
 cd dwarf-20140413/libdwarf
@@ -1043,12 +1038,103 @@ cp ./dwarf.h $HOME/include
 cp ./libdwarf.h $HOME/include
 cp ./libdwarf.a $HOME/lib
 </code></pre></p>
-<h2 id="experiments-results"><a name="user-content-experiments-results" href="#experiments-results" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Experiments results:</h2>
-<ul>
-<li><a href="./results/simple2.html">simple2</a></li>
-<li><a href="./results/simple3.html">simple3</a></li>
-<li><a href="./results/ex1.html">ex1</a></li>
-<li><a href="./results/f1a.html">f1a</a></li>
-<li><a href="./results/f2.html">f2</a></li>
-<li><a href="./results/substring1.html">substring1</a></li>
-</ul></article></body></html>
+<h2 id="experiment-results"><a name="user-content-experiment-results" href="#experiment-results" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Experiment results</h2>
+<p>Program ex1<br />
+<pre><code>int main () {
+
+    int x;
+    int y;
+    int xa = 0;
+    int ya = 0;
+
+    while (nondet()) {
+        x = xa + 2*ya;
+        y = -2*xa + ya;
+
+        x++;
+        if (nondet()) y = y+x;
+        else y = y-x;
+
+        xa = x - 2*y;
+        ya = 2*x + y;
+    }
+
+    assert (xa + 2*ya &gt;= 0);
+    return 0;
+}
+</code></pre><br />
+after instrumentation:<br />
+<pre><code>#include&lt;stdio.h&gt;
+#include&lt;time.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;iostream&gt;
+#include &quot;../header.h&quot;
+using namespace std;
+
+
+int x;
+int y;
+bool passP = false;
+bool passQ = false;
+
+int main (int argc, char** argv) {
+    srand(time(NULL));
+    if (argc &lt; 3) return -1;
+    int xa = atoi(argv[1]);
+    int ya = atoi(argv[2]);
+
+    //Precondition: x + y &gt;= 0
+    //assume (x + y &gt;= 0)
+    if (xa + 2 * ya &gt;= 0)
+        passP = true;
+
+    while (nondet()) {
+        if (passP) 
+            cout &lt;&lt; &quot;? 1 1:&quot; &lt;&lt; xa  &lt;&lt; &quot; 2:&quot; &lt;&lt; ya &lt;&lt; endl;
+        else
+            cout &lt;&lt; &quot;? -1 1:&quot; &lt;&lt; xa &lt;&lt; &quot; 2:&quot; &lt;&lt; ya &lt;&lt; endl;
+        x = xa + 2*ya;
+        y = -2*xa + ya;
+
+        x++;
+        if (nondet()) y = y+x;
+        else y = y-x;
+
+        xa = x - 2*y;
+        ya = 2*x + y;
+    }
+
+    // Postcondition: y &gt; 0
+    // assert (y &gt; 0);
+    if (xa + 2 * ya &gt;= 0)
+        passQ = true;
+    if (passP) { // pass Precondition, Q should be passed!
+        if (passQ) cout &lt;&lt; &quot;+ 1 1:&quot; &lt;&lt; xa &lt;&lt; &quot; 2:&quot; &lt;&lt; ya &lt;&lt; endl;
+        else cout &lt;&lt; &quot;x 1 1:&quot; &lt;&lt; xa &lt;&lt; &quot; 2:&quot; &lt;&lt; ya &lt;&lt; endl;  // cerr &lt;&lt; &quot;!BUG! input:&quot; &lt;&lt; atoi(argv[1]) &lt;&lt; &quot; &quot; &lt;&lt; atoi(argv[2]) &lt;&lt; endl;
+    } else { // not pass Precondition, if not pass Postcondition, all are negative samples.
+        if (passQ) cout &lt;&lt; &quot;- -1 1:&quot; &lt;&lt; xa &lt;&lt; &quot; 2:&quot; &lt;&lt; ya &lt;&lt; endl;
+        else cout &lt;&lt; &quot;+ -1 1:&quot; &lt;&lt; xa &lt;&lt; &quot; 2:&quot; &lt;&lt; ya &lt;&lt; endl;
+    }
+
+    return 0;
+}
+</code></pre><br />
+Our learning progress: (you can find it in file <a href="https://github.com/lijiaying/FIIF/blob/master/examples/ex1/out5">out5</a> in our github repo)<br />
+<pre><code>make: 'ALL' is up to date.
+************************************** start **************************************************************
+ ...1...svm... 0.0238881324984629[0]  +  0.0660738598263692[1] &gt;= 0.600005674815671 [100% (16/16)]
+ ...2...svm... 0.181732504155531[0]  +  0.363465008311062[1] &gt;= -0.0913374792223749 [100% (32/32)]
+ ...3...svm... 0.333174971710307[0]  +  0.666349943420625[1] &gt;= -0.999999999999773  [100% (34/34)]
+ ...4...svm... 0.666335117975962[0]  +  1.33267023595197[1] &gt;= -0.999999999997272   [100% (62/62)]
+ ...5...svm... 0.999500109699568[0]  +  1.99900021939914[1] &gt;= -1   [100% (70/70)]
+ ...6...svm... 0.999500666054426[0]  +  1.99900133210893[1] &gt;= -0.999999999997167   [100% (72/72)]
+ ...7...svm... 0.999549774425127[0]  +  1.99909954885019[1] &gt;= -1.00000000000273    [100% (84/84)]
+ ...8...svm... 0.999549774425127[0]  +  1.99909954885019[1] &gt;= -1.00000000000273    [100% (84/84)]
+ +++9...svm... 0.999862848636418[0]  +  1.99972569727279[1] &gt;= -1.00000000000273    [100% (140/140)]
+ ...10...svm... 1.00000000000014[0]  +  2.00000000000013[1] &gt;= -1.00000000000572    [100% (146/146)]
+ ...11...svm... 0.99986284863644[0]  +  1.99972569727277[1] &gt;= -1.00000000000435    [100% (150/150)]
+ ...12...svm... 0.999808943395778[0]  +  1.99961788679131[1] &gt;= -1.00000000000765   [100% (158/158)]
+ ...13...svm... 0.999808943395778[0]  +  1.99961788679131[1] &gt;= -1.00000000000765   [100% (164/164)]
+ ...*************************************  end  *************************************************************
+adjust coefficiency...&gt;&gt;  1[0]  +  2[1] &gt;= -1
+</code></pre></p></article></body></html>
