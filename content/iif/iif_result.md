@@ -1,7 +1,7 @@
 # Invariant Inference Framework experiment results:
 
 This is the result of our implementation of the paper [An Invariant Inference Framework by
-Active Learning and SVMs](./IIF.pdf) by Li Jiaying.
+Active Learning and SVMs](../../Papers/AInvariantInferenceFrameworkbyActiveLearningandSVMs.pdf) by Li Jiaying.
 
 For you to run the experiments on your own machine, please follow the steps below to set up your experiment environment.
 
@@ -38,19 +38,11 @@ make
 ```
 
 ## Add new tests to test our framework
-As InvariantInferenceFramework is integrated with your examples, you need to do some modification on source code level before you can test your examples.
+#####As InvariantInferenceFramework is integrated with your examples, you need to do some modification on source code level before you can test your examples.
 * rewrite your loop code in a function with the name you like, my_loop_example for instance
 * put the function in {examples/examples.cpp} or create a new file contains the function and remember to include "../include/header.h"
 * edit file {include/config.h}, add "define my_loop_example m", and "#define VARS (the number of parameters in your loop)"
-
-
-
-```
-Create a new Win32 console project in VS2015
-Drag the header files in {include} folder to Header Files
-Drag other Cpp files in {src} and {example} folder to Source Files
-You can directly build and run the project as you want.
-```
+* make your project and then run the executable file
 
 
 <!--#Optional dependencies:
