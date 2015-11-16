@@ -1,43 +1,34 @@
-# Invariant Inference Framework experiment results:
+# Invariant Inference Framework:
 
 This is the result of our implementation of the paper [An Invariant Inference Framework by
 Active Learning and SVMs](../../Papers/AInvariantInferenceFrameworkbyActiveLearningandSVMs.pdf) by Li Jiaying.
 
 For you to run the experiments on your own machine, please follow the steps below to set up your experiment environment.
 
-## Build Invariant Inference Framework
+## Work on Invariant Inference Framework
 To build the framework currently is very easy,
 there is not much dependencies you need to satisfy before build the whole project.
 
-Dependencies:
-* [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) remember to put {libsvm}/bin folder into $PATH
-* [klee](https://klee.github.io/) currently this is not essential.
+###Dependencies, for Windows/Linux/MacOSX Users:
+* [cmake](https://cmake.org/) version 2.8 or later.
+* [libsvm](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) remember to put {libsvm}/bin folder into $PATH.
+* [klee](https://klee.github.io/) This is optional currently.
+* [Build tools](), such as make, Visual Studio 2015, or Xcode.
 
 
-### For Windows Users:
-* Windows xp or later
-* Visual Studio 2015
-```
-Create a new Win32 console project in VS2015
-Drag the header files in {include} folder to Header Files
-Drag other Cpp files in {src} and {example} folder to Source Files
-You can directly build and run the project as you want.
-```
-
-## For Linux Users:
-* cmake 2.8 or later
+###Build InvariantInferenceFramework
 ```
 git clone git@github.com:lijiaying/InvariantInferenceFramework.git
 cd InvariantInferenceFramework
 cd test
 mkdir build
 cd build
-cmake ..
+cmake .. -G [your platform]  // just use cmake .. if you are not sure
 make
-./learn
+./IIF_learn
 ```
 
-## Add new tests to test our framework
+## Add your tests to this framework
 #####As InvariantInferenceFramework is integrated with your examples, you need to do some modification on source code level before you can test your examples.
 * rewrite your loop code in a function with the name you like, my_loop_example for instance
 * put the function in {examples/examples.cpp} or create a new file contains the function and remember to include "../include/header.h"

@@ -861,61 +861,48 @@ body .markdown-body
   margin: 0.3em 0 0.25em -1.6em;
   vertical-align: middle;
 }</style><title>iif_result</title></head><body><article class="markdown-body"><h1>
-<a id="user-content-invariant-inference-framework-experiment-results" class="anchor" href="#invariant-inference-framework-experiment-results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Invariant Inference Framework experiment results:</h1>
+<a id="user-content-invariant-inference-framework" class="anchor" href="#invariant-inference-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Invariant Inference Framework:</h1>
 
-<p>This is the result of our implementation of the paper <a href="../../Papers/AInvariantInferenceFrameworkbyActiveLearningandSVMs.pdf">An Invariant Inference Framework by
+<p>This is the result of our implementation of the paper <a href="///C://Users/lijiaying/Dropbox/lijiaying.github.io/Papers/AInvariantInferenceFrameworkbyActiveLearningandSVMs.pdf">An Invariant Inference Framework by
 Active Learning and SVMs</a> by Li Jiaying.</p>
 
 <p>For you to run the experiments on your own machine, please follow the steps below to set up your experiment environment.</p>
 
 <h2>
-<a id="user-content-build-invariant-inference-framework" class="anchor" href="#build-invariant-inference-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Build Invariant Inference Framework</h2>
+<a id="user-content-work-on-invariant-inference-framework" class="anchor" href="#work-on-invariant-inference-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Work on Invariant Inference Framework</h2>
 
 <p>To build the framework currently is very easy,
 there is not much dependencies you need to satisfy before build the whole project.</p>
 
-<p>Dependencies:</p>
+<h4>
+<a id="user-content-dependencies-for-windowslinuxmacosx-users" class="anchor" href="#dependencies-for-windowslinuxmacosx-users" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies, for Windows/Linux/MacOSX Users:</h4>
 
 <ul>
 <li>
-<a href="https://www.csie.ntu.edu.tw/%7Ecjlin/libsvm/">libsvm</a> remember to put {libsvm}/bin folder into $PATH</li>
+<a href="https://cmake.org/">cmake</a> version 2.8 or later.</li>
 <li>
-<a href="https://klee.github.io/">klee</a> currently this is not essential.</li>
+<a href="https://www.csie.ntu.edu.tw/%7Ecjlin/libsvm/">libsvm</a> remember to put {libsvm}/bin folder into $PATH.</li>
+<li>
+<a href="https://klee.github.io/">klee</a> This is optional currently.</li>
+<li>
+<a href="">Build tools</a>, such as make, Visual Studio 2015, or Xcode.</li>
 </ul>
 
-<h3>
-<a id="user-content-for-windows-users" class="anchor" href="#for-windows-users" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Windows Users:</h3>
-
-<ul>
-<li>Windows xp or later</li>
-<li>Visual Studio 2015</li>
-</ul>
-
-<pre><code>Create a new Win32 console project in VS2015
-Drag the header files in {include} folder to Header Files
-Drag other Cpp files in {src} and {example} folder to Source Files
-You can directly build and run the project as you want.
-</code></pre>
-
-<h2>
-<a id="user-content-for-linux-users" class="anchor" href="#for-linux-users" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Linux Users:</h2>
-
-<ul>
-<li>cmake 2.8 or later</li>
-</ul>
+<h4>
+<a id="user-content-build-invariantinferenceframework" class="anchor" href="#build-invariantinferenceframework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Build InvariantInferenceFramework</h4>
 
 <pre><code>git clone git@github.com:lijiaying/InvariantInferenceFramework.git
 cd InvariantInferenceFramework
 cd test
 mkdir build
 cd build
-cmake ..
+cmake .. -G [your platform]  // just use cmake .. if you are not sure
 make
-./learn
+./IIF_learn
 </code></pre>
 
-<h2>
-<a id="user-content-add-new-tests-to-test-our-framework" class="anchor" href="#add-new-tests-to-test-our-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add new tests to test our framework</h2>
+<h4>
+<a id="user-content-add-your-tests-to-this-framework" class="anchor" href="#add-your-tests-to-this-framework" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add your tests to this framework</h4>
 
 <h5>
 <a id="user-content-as-invariantinferenceframework-is-integrated-with-your-examples-you-need-to-do-some-modification-on-source-code-level-before-you-can-test-your-examples" class="anchor" href="#as-invariantinferenceframework-is-integrated-with-your-examples-you-need-to-do-some-modification-on-source-code-level-before-you-can-test-your-examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>As InvariantInferenceFramework is integrated with your examples, you need to do some modification on source code level before you can test your examples.</h5>
