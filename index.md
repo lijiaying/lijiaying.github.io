@@ -22,11 +22,7 @@ which stays at the heart of program verification and also the hardest part in th
 ## Publications
 * An Invariant Inference Framework using Active Learning and SVMs [PDF](http://lijiaying.github.io/PDF/AnInvariantInferenceFrameworkbyActiveLearningandSVMs.pdf)
 Li Jiaying In [ICECCS 2015](http://iceccs2015.monash.edu.au/2015/index.jsp), Dec 9-12, Gold Coast, Australia
-[Project Homepage](http://iifrm.github.io/) documentation [HTML](http://iifrm.github.io/doc/html/index.html) [PDF](http://iifrm.github.io/doc/latex/refman.pdf)
-
-##Project
-* IIFrm: An Invariant Inference Framework [homepage](http://iifrm.github.io/) 
-  documentation [HTML](http://iifrm.github.io/doc/html/index.html) [PDF](http://iifrm.github.io/doc/latex/refman.pdf)
+[Project](http://iifrm.github.io/) documentation [HTML](http://iifrm.github.io/doc/html/index.html) [PDF](http://iifrm.github.io/doc/latex/refman.pdf)
 
 
 ## Talks
