@@ -738,6 +738,38 @@ pre {
 <li>make and otherLLVM essential building tools, you can add when necessary</li>
 <li>
 <a href="https://github.com/Z3Prover/z3">z3</a> the installation folder should be "/usr" or "/usr/local", otherwise you should modify $Z3_ROOT in cmake.base in the project directory so cmake can find it. </li>
+<li>
+<a href="https://klee.github.io/">KLEE</a> only test llvm2.9 yet, so try to build KLEE by <a href="http://klee.github.io/build-llvm29/">build-llvm29</a>
+</li>
+</ul>
+
+<h4>
+<a id="user-content-patch-klee-source-code" class="anchor" href="#patch-klee-source-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>patch KLEE source code</h4>
+
+<p>This modification aims at generate smt2 file for each path condition.
+THe principle is to add a new method call``Massert'', and in its method handler we output the path condition to files.</p>
+
+<ul>
+<li><a href="http://lijiaying.github.io/content/iif/klee_patch.tar.bz2">download patch file</a></li>
+</ul>
+
+<h5>
+<a id="user-content-note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note:</h5>
+
+<ul>
+<li>The patch files are tested successfully if you use them just between KLEE configure step and KLEE make step. (between step 5 and 6 in <a href="http://klee.github.io/build-llvm29/">build-llvm29</a>)</li>
+<li>Unpack the bz2 file, and then you can find "klee.patch" which is the patch file for whole KLEE project, ignore any warning during your patching process.</li>
+</ul>
+
+<pre><code>$ls
+klee klee.patch filepatch
+$cd klee
+$patch -p1 &lt;../klee.patch
+</code></pre>
+
+<ul>
+<li>If the last step does not work, you can patch each file by yourself. The patches for affected files are located in "klee_patch/filepatch" folder.</li>
+<li>After the patch, you can continue to proceed KLEE make step (step 6 in <a href="http://klee.github.io/build-llvm29/">build-llvm29</a>)</li>
 </ul>
 
 <h4>
@@ -770,19 +802,4 @@ mkdir build
 <li>Follow the format such as 'cfg/test.cfg', put your test case in 'cfg' folder.</li>
 <li>And then try to run the system and see what happens.</li>
 </ul>
-
-<h2>
-<a id="user-content-validation-part-have-not-finished" class="anchor" href="#validation-part-have-not-finished" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Validation Part (have not finished)</h2>
-
-<ul>
-<li>
-<a href="https://klee.github.io/">klee</a> only test llvm2.9 yet, so try to build klee by <a href="http://klee.github.io/build-llvm29/">build-llvm29</a>
-</li>
-</ul>
-
-<h4>
-<a id="user-content-klee-source-code-modification-have-not-finished" class="anchor" href="#klee-source-code-modification-have-not-finished" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>klee source code modification (have not finished)</h4>
-
-<p>This modification aims at generate smt2 file for each path condition.
-THe principle is to add a new method call``Massert'', and in its method handler we output the path condition to files.</p>
 </article></body></html>

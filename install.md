@@ -31,9 +31,23 @@ mkdir build
 
 
 
-## Validation Part (have not finished)
-* [klee](https://klee.github.io/) only test llvm2.9 yet, so try to build klee by [build-llvm29](http://klee.github.io/build-llvm29/)
+## Validation Part
+* [KLEE](https://klee.github.io/) only test llvm2.9 yet, so try to build klee by [build-llvm29](http://klee.github.io/build-llvm29/)
 
-#### klee source code modification (have not finished)
+#### patch KLEE source code
 This modification aims at generate smt2 file for each path condition.
 THe principle is to add a new method call``Massert'', and in its method handler we output the path condition to files.
+
+* [download patch file](http://lijiaying.github.io/content/iif/klee_patch.tar.bz2)
+
+##### Note:
++ The patch files are tested successfully if you use them just between klee configure step and klee make step. (between step 5 and 6 in [build-llvm29](http://klee.github.io/build-llvm29/))
++ Unpack the bz2 file, and then you can find "klee.patch" which is the patch file for whole klee project, ignore any warning during your patching process.
+```
+$ls
+klee klee.patch
+$cd klee
+$patch -p1 <../klee.patch
+```
++ If the last step does not work, you can patch each file by yourself. The patches for affected files are located in "klee_patch/filepatch" folder.
++ After the patch, you can continue to proceed KLEE make step (step 6 in [build-llvm29](http://klee.github.io/build-llvm29/))
