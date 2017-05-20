@@ -13,7 +13,7 @@ in [ICFEM 2016](http://xxx), Tokyo, Japan
 **Automatic Loop-invariant Generation and Refinement through Selective Sampling** [PDF](http://lijiaying.github.io/PDF/ase17.pdf)
 
 * Jiaying Li, Jun Sun, Bo Gao and E ́tienne Andre ́
-**Classification based Parameter Synthesis for Parametric Timed Automata** (PDF)(http://lijiaying.github.io/PDF/icfem17.pdf)
+**Classification based Parameter Synthesis for Parametric Timed Automata** [PDF](http://lijiaying.github.io/PDF/icfem17.pdf)
 
 ##Project
 * IIFrm: An Invariant Inference Framework [homepage](http://iifrm.github.io/)
