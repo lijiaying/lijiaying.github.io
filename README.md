@@ -1,7 +1,7 @@
 # Jiaying Li
 <table width="68%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="W:\Research\homepage\photo.png" width="100"><br></td>
+<td><IMG SRC="./photo.png" width="100"><br></td>
 <td>
 <div>
 <b>PhD Candidate</b> <BR> 
