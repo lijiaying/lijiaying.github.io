@@ -1,3 +1,9 @@
+---
+author: Li Jiaying
+date: Aug. 26, 2017
+geometry: margin=6cm
+output: html_document
+---
 # Jiaying Li
 Ph.D. student, [ISTD](https://istd.sutd.edu.sg/), [SUTD](http://www.sutd.edu.sg/)
 
