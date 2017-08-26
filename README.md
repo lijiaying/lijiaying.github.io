@@ -5,7 +5,7 @@
 <td>
 <div>
 <b>PhD Candidate</b> <BR> 
-<a href="https://istd.sutd.edu.sg/">Information System of Technology and Design</a><BR>
+<a href="https://istd.sutd.edu.sg/">Information Systems of Technology and Design</a><BR>
 <a href="http://www.sutd.edu.sg/">Singapore University of Technology and Design</a>
 <P>Address: 1.314, Singapore Univ. of Tech & Design, 8 Somapah Rd, Singapore, 487372<BR>
 <P>Tel: (+65)91327556<BR>
