@@ -1,5 +1,5 @@
 #!/bin/bash
-pandoc -f markdown index.md -t html -V geometry:margin=.5in -Ss > index.html
+pandoc -f markdown README.md -t html -V geometry:margin=.5in -Ss > README.html
 exit 0
 
 
