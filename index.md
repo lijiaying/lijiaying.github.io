@@ -1,17 +1,19 @@
----
-author: Li Jiaying
-date: Aug. 26, 2017
-geometry: margin=6cm
-output: html_document
----
 # Jiaying Li
-Ph.D. student, [ISTD](https://istd.sutd.edu.sg/), [SUTD](http://www.sutd.edu.sg/)
-
-Address: 1.314, SUTD, 8 Somapah Rd, Singapore, 487372
-
-Tel: (+65)91327556
-
-Email: lijiaying1989@gmail.com
+<table align=left>
+  <tr>
+    <th rowspan="4"><img src="http://lijiaying.github.io/photo.png" width = "90" height = "160" alt="图片名称" align=center /></th>
+    <th align=left>Ph.D. Candidate</th>
+  </tr>
+  <tr>
+    <td>Address: 1.314, SUTD, 8 Somapah Rd, Singapore, 487372</td>
+  </tr>
+  <tr>
+    <td>Tel: (+65)91327556</td>
+  </tr>
+  <tr>
+    <td>Email: lijiaying1989@gmail.com</td>
+  </tr>
+</table>
 
 [Curriculum Vitae](http://lijiaying.github.io/cv.pdf)
 
