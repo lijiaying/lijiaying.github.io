@@ -7,9 +7,9 @@
 <b>PhD Candidate</b> <BR> 
 <a href="https://istd.sutd.edu.sg/">Information System of Technology and Design</a><BR>
 <a href="http://www.sutd.edu.sg/">Singapore University of Technology and Design</a>
-<P> Address: 1.314, SUTD, 8 Somapah Rd, Singapore, 487372<BR>
-Tel: (+65)91327556<BR>
-Email: lijiaying1989@gmail.com<BR>
+<P>Address: 1.314, Singapore Univ. of Tech & Design, 8 Somapah Rd, Singapore, 487372<BR>
+<P>Tel: (+65)91327556<BR>
+<P>Email: lijiaying1989@gmail.com<BR>
 </div>
 </td>
 </tr>
@@ -36,7 +36,7 @@ I am also interested in machine learning and operating system topics.
 * Jiaying Li, Jun Sun. 
 [**Learning Disjunctive Invariants based on Loop Structures**](http://lijiaying.github.io/papers/icse18.pdf) (under review)
 
-* Jiaying Li, Jun Sun, Bo Gao and  ́Etienne Andre ́
+* Jiaying Li, Jun Sun, Bo Gao and Etienne Andre
 [**Classification-based Parameter Synthesis for Parametric Timed Automata**](http://lijiaying.github.io/papers/icfem17.pdf)
 in [ICFEM 2017](http://ictt.xidian.edu.cn/icfem2017/), Nov. 13-17, Xi'an, China
 
