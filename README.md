@@ -1,18 +1,18 @@
 # Jiaying Li
-<table align=left>
-  <tr>
-    <th rowspan="4"><img src="http://lijiaying.github.io/photo.png" width = "90" height = "160" alt="图片名称" align=center /></th>
-    <th align=left>Ph.D. Candidate</th>
-  </tr>
-  <tr>
-    <td>Address: 1.314, SUTD, 8 Somapah Rd, Singapore, 487372</td>
-  </tr>
-  <tr>
-    <td>Tel: (+65)91327556</td>
-  </tr>
-  <tr>
-    <td>Email: lijiaying1989@gmail.com</td>
-  </tr>
+<table width="68%" border="0" cellpadding="0">
+<tr valigh="top" aligh="left">
+<td><IMG SRC="W:\Research\homepage\photo.png" width="100"><br></td>
+<td>
+<div>
+<b>PhD Candidate</b> <BR> 
+<a href="https://istd.sutd.edu.sg/">Information System of Technology and Design</a><BR>
+<a href="http://www.sutd.edu.sg/">Singapore University of Technology and Design</a>
+<P> Address: 1.314, SUTD, 8 Somapah Rd, Singapore, 487372<BR>
+Tel: (+65)91327556<BR>
+Email: lijiaying1989@gmail.com<BR>
+</div>
+</td>
+</tr>
 </table>
 
 [Curriculum Vitae](http://lijiaying.github.io/cv.pdf)
