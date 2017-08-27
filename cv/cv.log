@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.19)  27 AUG 2017 20:40
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.19)  28 AUG 2017 01:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -829,37 +829,37 @@ Overfull \hbox (4.71005pt too wide) in paragraph at lines 78--104
  []
 
 
-Overfull \hbox (38.00032pt too wide) in paragraph at lines 110--167
+Overfull \hbox (38.00032pt too wide) in paragraph at lines 110--166
 [][] 
  []
 
 
-Overfull \hbox (85.02007pt too wide) in paragraph at lines 176--186
+Overfull \hbox (85.02007pt too wide) in paragraph at lines 175--185
 [][] 
  []
 
 [1
 
 ]
-Overfull \hbox (11.31004pt too wide) in paragraph at lines 226--232
+Overfull \hbox (11.31004pt too wide) in paragraph at lines 225--231
 [][] 
  []
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 254.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 254.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 22178 strings out of 493591
- 394481 string characters out of 6143546
+ 22181 strings out of 493591
+ 394563 string characters out of 6143546
  419381 words of memory out of 5000000
- 25443 multiletter control sequences out of 15000+600000
- 4120 words of font info for 30 fonts, out of 8000000 for 9000
+ 25444 multiletter control sequences out of 15000+600000
+ 4128 words of font info for 31 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  48i,9n,48p,10415b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
 
