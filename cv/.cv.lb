@@ -23,13 +23,13 @@ aVurl
 p11
 aVmarvosym
 p12
-aVfontspec
-p13
 aVsupertabular
+p13
+aVtextpos
 p14
 aVxltxtra
 p15
-aVtextpos
+aVfontspec
 p16
 aVparskip
 p17
