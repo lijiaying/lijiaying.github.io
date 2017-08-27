@@ -21,10 +21,10 @@
 % \setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
 %%% modified for Karol Kozioł for ShareLaTeX use
 % \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
+ %SmallCapsFont = Fontin-SmallCaps.otf,
+ %BoldFont = Fontin-Bold.otf,
+ %ItalicFont = Fontin-Italic.otf
+ %]
 %{Fontin.otf}
 %%%
 
@@ -41,9 +41,9 @@
 %-------------WATERMARK TEST [**not part of a CV**]---------------
 \usepackage[absolute]{textpos}
 
-\setlength{\TPHorizModule}{30mm}
+\setlength{\TPHorizModule}{20mm}
 \setlength{\TPVertModule}{\TPHorizModule}
-\textblockorigin{2mm}{0.65\paperheight}
+\textblockorigin{2mm}{0.35\paperheight}
 \setlength{\parindent}{0pt}
 
 %--------------------BEGIN DOCUMENT----------------------
@@ -57,116 +57,201 @@
 %--------------------TITLE-------------
 \par{\centering
 		{\Huge Jiaying \textsc{Li}
-	}\bigskip\par}
+	}
+\bigskip
+\par}
 
 %--------------------SECTIONS-----------------------------------
 %Section: Personal Data
 % \section{Personal Data}
 
 \begin{tabular}{rl}
-%     \textsc{Place and Date of Birth:} & Someplace, Italy  | dd Month 1912 \\
+%   \textsc{Place and Date of Birth:} & Someplace, Italy  | dd Month 1912 \\
     \textsc{Address:}   & 1.304, 8 Somapah Road, 487372, Singapore\\
     \textsc{Phone:}     & +65 9132 7556\\
-    \textsc{email:}     & \href{mailto:lijiaying1989@gmail.com}{lijiaying1989@gmail.com}
-	% \textsc{website:}   & jiaying $\dot$ li
+    \textsc{email:}     & \href{mailto:lijiaying1989@gmail.com}{lijiaying1989@gmail.com}\\
+	\textsc{website:}   &  \href{http://jiaying.li}{http://jiaying.li}
 \end{tabular}
 
 %Section: Education
 \section{Education}
 \begin{tabular}{rl}	
- \textsc{Sep.} 2013 - \textsc{Apr.} 2018 (Expected)  & Ph.D in \textsc{Computer Science}, \\
+ \textsc{Sep.} 2013 - \textsc{Jun.} 2018  & Ph.D in \textsc{Computer Science}, \\
 & \textbf{Singapore University of Technology and Design}, Singapore\\
-& Research area: Software Engineering, Program Analysis\\
+% & Research area: Software Engineering, Program Analysis\\
 % & Thesis: ``Sublinear and Locally Sublinear Prices'' \\
 & \small Advisor: Assoc. Prof. Jun Sun\\
 
-
-\textsc{Sep.} 2011 - \textsc{June} 2013& Study in \textsc{Institute of Computing Technology} \\
+\textsc{Sep.} 2011 - \textsc{Jun.} 2013& Study in \textsc{Institute of Computing Technology} \\
 & \textbf{Chinese Academy of Sciences}, Beijing, China\\
 % & \textsc{Sep.} 2011 - \textsc{Nov.} 2012 \\
 % & ~~~~~~~~\textsc{Data Storage and Management Technology Research Center} \\
 % & \small Advisor: Lu Xv\\
-% & \textsc{Dec.} 2012 - \textsc{June} 2013 \\
+% & \textsc{Dec.} 2012 - \textsc{Jun.} 2013 \\
 % & ~~~~~~~~\textsc{Advanced Computer Research Center} \\
 % & \small Advisor: Jianfeng Zhan \\
 % &\normalsize \textsc{Gpa}: 3.72/4.3; \textsc{Rank}: 5/44 \\
 
 
-\textsc{Sep} 2007 - \textsc{Aug} 2011& B.Eng. in \textsc{Software Engineering} \\
+\textsc{Sep} 2007 - \textsc{Aug.} 2011& B.Eng. in \textsc{Software Engineering} \\
 & \textbf{Nankai University}, Tianjin, China\\
 &\normalsize \textsc{Gpa}: 3.9/4.0; \textsc{Rank}: 3/134 
 % & \hyperlink{grds_cleli}{\hfill| \footnotesize Detailed List of Exams}\\&\\
 \end{tabular}
 
+\section{Research Interests}
+Software engineering, program analysis, machine learning
 
 %Section: Project Experience
-\section{Project Experience}
+\section{Research Experience}
 \begin{tabular}{rp{11cm}}
-\textsc{Sep} 2016 - \textsc{Aug} 2017 & \textsc{ZIMU} \\
-& \textsc{Singapore University of Technology and Design, Singapore} \\
-&\footnotesize{Design a wound detection and classification system that runs on mobile phone. Responsible for design the wound detection and wound classification model, test on a complex wound image dataset with various sizes, lighting conditions, and qualities. Compress the model for mobile device. Implement the whole system on mobile device.} \\
+\textsc{Sep.} 2016 - \textsc{Aug.} 2017 & \textsc{Zimu:} \footnotesize{Complex invariant learning framework based on program structures}\\
+%& \textsc{Singapore University of Technology and Design, Singapore} \\
+%& Advisor: Jun Sun, SUTD\\
+&\footnotesize{
+\begin{itemize}
+	\item Design an algorithm to partition program based on program structuren and learn disjunctive invariants based on the resulting partitions;
+	\item Design a heuristic algorithm to search for a good program partitioning which would lead to a disjunctive loop-invariant with fewer clauses by exploring the structure of the loop adaptively.
+%	\item Evaluate the performance with a comprehensive set of benchmarks. The results show that our approach is more effective in learning disjunctive loop-invariants compared with existing approaches.
+\end{itemize}
+} \\
 
 
-\textsc{Oct.} 2016 - \textsc{Apr.} 2017 & \textsc{pta-Learn} \\
-& \textsc{Singapore University of Technology and Design, Singapore} \\
-&\footnotesize{Design an on-road vehicle counting system that counts the number of different types of vehicles. Responsible for design the vehicle detection and vehicle classification model, test on a vehicle image dataset taken under different weathers, lighting conditions.} \\
-&\footnotesize{Design an on-road license plate recognition system. Responsible for design the license plate detection and recognition model, test on a vehicle video dataset with vehicles in various distances, angles.} \\
+\textsc{Oct.} 2016 - \textsc{Apr.} 2017 & \textsc{pta-Learn:} \footnotesize{Parametric timed automata verification with active learning}\\
+%& \textsc{Singapore University of Technology and Design, Singapore} \\
+%& Advisor: Jun Sun, SUTD\\
+&\footnotesize{
+\begin{itemize}
+	\item Enhance the scalability of existing model checkers fo1r PTA by adopting machine learning techniques;
+	\item Form conjectures on the constraint based on sampling and classification techniques; 
+%Firstly, we generate random parameter values and construct the corresponding non-parametric timed automata. Next, we verify the timed automata using existing model checker (i.e., \textsc{Uppaal}).
+%Based on the checking results, we form conjectures on the constraint through machine learning, which can be subsequently checked using existing model checkers for PTA (i.e., \textsf{IMITATOR}).
+	\item Actively seek out informative parameter values and check the corresponding timed automata so that we converge to an accurate conjecture quickly/
+%	\item Evaluate it on benchmark systems.
+\end{itemize}
+} \\
 
 
-\textsc{Dec} 2015 - \textsc{June.} 2016 & \textsc{ZILU} \\
-& \textsc{Singapore University of Technology and Design, Singapore} \\
-&\footnotesize{Design an mobile imaging system that detect and conduct early diagnose on skin mole of being melanoma or not. Responsible for design the skin mole detection model, test on a skin mole image dataset with different resolutions and lighting conditions. Implement the whole system on mobile device.} \\
-\\
+\textsc{Dec.} 2015 - \textsc{Jun.} 2016 & \textsc{Zilu:}   \footnotesize{Invariant generation framework based on classification and selective sampling}\\
+%& \textsc{Singapore University of Technology and Design, Singapore} \\
+%& \small{Advisor: Jun Sun, SUTD}\\
+&\footnotesize{
+\begin{itemize}
+	\item Build an invariant learning framework based on program variable valuations in run-time and classification algorithms;
+	\item Propose an active learning technique, known as selective sampling, to overcome the limitation of random sampling;
+%	\item Propose to generate disjunctive invariants through {\em path-sensitive} learning
+	\item Actively seek out informative parameter values and check the corresponding timed automata so that we converge to an accurate conjecture quickly;
+%	\item Evaluate it on benchmark systems and compare with state-of-the-art tools like Interproc, CPAChecker, InvGen and BLAST.
+\end{itemize}
+}\\
 
-\textsc{June} 2015 - \textsc{Dec.} 2015 & \textsc{FIIF} \\
-& \textsc{Singapore University of Technology and Design, Singapore} \\
-&\footnotesize{Design an mobile imaging system that detect and conduct early diagnose on skin mole of being melanoma or not. Responsible for design the skin mole detection model, test on a skin mole image dataset with different resolutions and lighting conditions. Implement the whole system on mobile device.} \\
-\\
+%\textsc{June} 2015 - \textsc{Dec.} 2015 & \textsc{FIIF} \\
+%& \textsc{Singapore University of Technology and Design, Singapore} \\
+%& Advisor: Jun Sun, SUTD\\
+%&\footnotesize{Design an mobile imaging system that detect and conduct early diagnose on skin mole of being melanoma or not. Responsible for design the skin mole detection model, test on a skin mole image dataset with %different resolutions and lighting conditions. Implement the whole system on mobile device.} \\
+%\\
 
-
-\textsc{Oct.} 2010 - \textsc{June.} 2011 & \textsc{Operating System Kernel} \\
-& \textsc{Nankai University, China} \\
-&\footnotesize{Worked on establishing a pets watching system, used RFID to locate the pet and used a small robot car to watch and take care of the pet via online control. Responsible for the mechanical structure of the robot car and MCU programming for its control. Participated in the work of RFID location part and web connection part.} \\
+\textsc{Oct.} 2010 - \textsc{June.} 2011 & \textsc{An Operating System Kernel} \\
+%& \textsc{Nankai University, China} \\
+%& Advisor: Yaoguo Li, Nankai University\\
+&\footnotesize{
+\begin{itemize}
+	\item Design a micro-kernel of operating systems based on the book `Orange S' and Linux kernel version 0.11 source code;
+	\item Implement most basic kernel functions, including process management, I/O, interprococess communication, File System, memory management.
+\end{itemize}
+} \\
 \end{tabular}
+
+
+
+
+
+
+
+%Section: Working
+\section{Working Experience}
+\begin{tabular}{rl}	
+	\textsc{Jul.} 2013 - \textsc{Sep.} 2013  & Research assistant in ISTD, SUTD, Singapore \\
+	\textsc{Dec.} 2012 - \textsc{Jun.} 2013	 & Research assistant in acs, ICT, CAS, Beijing, China \\
+	\textsc{Mar.} 2012 - \textsc{Nov.} 2012  & Research assistant in bwlab, ICT, CAS, Beijing, China \\
+	\textsc{Oct.} 2011 - \textsc{Jan.} 2012  & Developer in Trend Media Corporation Limited., Beijing, China\\
+	\textsc{Oct.} 2009 - \textsc{Jan.} 2010  & Developer in Sun Micro systems, Inc., Beijing, China\\
+\end{tabular}
+
+
+
+
+
 
 %Section: Scholarships and additional info
 \section{Scholarships}
 \begin{tabular}{rl}
-\textsc{Sep} 2013 - \textsc{Aug} 2017 & SUTD President’s Graduate Fellowship \\
-\textsc{Sep} 2009 & National Scholarship \\
-\textsc{Oct} 2008 & National Inspirational Scholarship \\
+\textsc{Sep.} 2013 - \textsc{Aug.} 2018 & SUTD President’s Graduate Fellowship \\
+\textsc{Oct.} 2010 - \textsc{Jun.} 2011 & First Prize National Fellowship \\
+\textsc{Oct.} 2009 - \textsc{Jun.} 2010 & National Scholarship \\
+\textsc{Oct.} 2008 - \textsc{Jun.} 2009 & National Endeavor Scholarship \\
+\textsc{Oct.} 2007 - \textsc{Jun.} 2008 & Second Prize National Fellowship \\
 \end{tabular}
+
+
 
 %Section: Languages
 \section{Languages}
 \begin{tabular}{rl}
- \textsc{Chinese:}&Mothertongue\\
-\textsc{English:}&Fluent\\
+	\textsc{Chinese:}&Mothertongue\\
+	\textsc{English:}&Fluent\\
 % \textsc{French:}&Basic Knowledge\\
 \end{tabular}
+
+
+
+
+
 
 \section{Publication list}
 
 \textbf{Jiaying Li}, Jun Sun, Learning Disjunctive Invariants based on Loop Structures, {\sl The 40th International Conference on Software Engineering,} Gothenburg, Sweden, 2018 (under review)
 
-\textbf{Jiaying Li}, Jiaying Li, Jun Sun, Bo Gao and ~ ́Etienne Andre ́, Classification-based Parameter Synthesis for Parametric Timed Automata, {\sl The 19th International Conference on Formal Engineering Methods,} Xi'an, China, 2017
+\textbf{Jiaying Li}, Jun Sun, Bo Gao and ~ ́Etienne Andre ́, Classification-based Parameter Synthesis for Parametric Timed Automata, {\sl The 19th International Conference on Formal Engineering Methods,} Xi'an, China, 2017
 
 \textbf{Jiaying Li}, Jun Sun, Li Li, Quang Loc Le and Shang-Wei Lin, Automatic Loop-invariant Generation and Refinement through Selective Sampling, {\sl The 32nd IEEE/ACM International Conference on Automated Software Engineering,} Illinois, USA, 2017
 
 Truong Khanh Nguyen,Tian Huat Tan, Jun Sun, \textbf{Jiaying Li}, Yang Liu, Manman Chen, Jin Song Dong, Scaling BDD-based Timed Verification with Simulation Reduction, {\sl The 19th International Conference on Formal Engineering Methods,} Tokyo, Japan, 2016 
 
-\textbf{Jiaying Li}, An Invariant Inference Framework using Active Learning and SVMs, {\sl The 20nd International Conference on Engineering of Complex Computer Systems,} Gold Coast, Austrilia, 2015.
+\textbf{Jiaying Li}, An Invariant Inference Framework using Active Learning and SVMs, {\sl The 20nd International Conference on Engineering of Complex Computer Systems,} Doctorial Symposium, Gold Coast, Austrilia, 2015.
+
+
+
+
+
+
+
+
+\section{Services}
+\begin{tabular}{ll}
+Volunteer:&FM 2014\\
+Presentation: &ICECCS 2015, ICFEM 2016\\
+Teaching assistant:&Machine learning (undergraduate, ISTD, SUTD, 2014)\\
+&Elements of software construction (undergraduate, ISTD, SUTD, 2014)\\
+\end{tabular}
+
+
+
+
 
 \section{Skills}
-\begin{tabular}{rl}
-Programming language:& Professional in C, C++, Bash shell\\
-Operating Systems: & Professional in Linux, Proficient in Windows and Mac
+\begin{tabular}{ll}
+Programming:& Professional in C, C++, bash shell, proficient in Python, Java\\
+Operating Systems: & Professional in Linux, proficient in Windows and Mac
 % Develop experience:& Android, Html
 \end{tabular}
 
 
+
+
+
 \section{Interests and Activities}
-Technology, Open-Source, Programming\\
+Technology, Open-Source, Programming, Marathon, Football, Diving, Swimming, Tennis
 
 % \newpage
 
