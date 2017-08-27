@@ -15,7 +15,7 @@
 </tr>
 </table>
 
-[Curriculum Vitae](http://lijiaying.github.io/cv.pdf)
+[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
 
 
 ## Education Background
