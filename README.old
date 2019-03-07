@@ -21,14 +21,21 @@
 ## Education Background
 * B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China, 2007-2011
 * Study in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China, 2011-2013
-* Ph.D. in [ISTD](https://istd.sutd.edu.sg/), [SUTD](http://www.sutd.edu.sg/), Singapore, 2013-2018
+* Ph.D. in [ISTD](https://istd.sutd.edu.sg/), [SUTD](http://www.sutd.edu.sg/), Singapore, 2013-Now
 
 
 ## Research Interest
-Program analaysis, programming language, software engineering. 
+In general, my research interest lies in program analaysis, programming language and software engineering. 
+
+Currently I am working on the topic to find loop invariant for a given program with loops in it, which stays at the heart of program verification and also the hardest part in this area.
+
+I am also interested in machine learning and operating system topics.
 
 
 ## Publications
+* Jiaying Li, Jun Sun. 
+[**Learning Disjunctive Invariants based on Loop Structures**](http://lijiaying.github.io/papers/icse18.pdf) (under review)
+
 * Jiaying Li, Jun Sun, Bo Gao and Etienne Andre
 [**Classification-based Parameter Synthesis for Parametric Timed Automata**](http://lijiaying.github.io/papers/icfem17.pdf)
 in [ICFEM 2017](http://ictt.xidian.edu.cn/icfem2017/), Nov. 13-17, Xi'an, China
@@ -45,3 +52,8 @@ in [ICFEM 2016](http://icfem2016.xyz/), Nov. 14-18, Tokyo, Japan
 [**An Invariant Inference Framework using Active Learning and SVMs**](http://lijiaying.github.io/papers/iceccs15.pdf)
 In [ICECCS 2015](http://iceccs2015.monash.edu.au/2015/index.jsp), Dec 9-12, Gold Coast, Australia
 
+
+## Projects (dev@jiaying.li for supports)
+* *zilu*: An Invariant Inference Framework [homepage](https://github.com/lijiaying/ZILU)
+* *pta-Learn*: Parametric Timed automata Learning [homepage](https://github.com/lijiaying/pta-Learn)
+* *zimu*: Structure-based Complext Invariant Learning Framework [homepage](https://github.com/lijiaying/zimu)

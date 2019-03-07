@@ -1,0 +1,62 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="file://W%3A%5CResearch%5Chomepage/">-->
+		<!---<base href="."></head><body><h1>Jiaying Li</h1>-->
+<table width="42%" border="0" cellpadding="0">
+<tbody><tr>
+	<td><IMG SRC="photo.png?" width="120"><br></td>
+<td>
+<div>
+<h1>Jiaying Li</h1>
+<b>PhD Candidate</b> <br> 
+<a href="https://istd.sutd.edu.sg/">Information Systems Technology and Design</a><br>
+<a href="http://www.sutd.edu.sg/">Singapore University of Technology and Design</a>
+<p>Address: 1.314, 8 Somapah Rd, Singapore, 487372<br>
+Tel: (+65)91327556<br>
+Email: lijiaying1989@gmail.com<br>
+<a href="http://lijiaying.github.io/cv/cv.pdf">Curriculum Vitae</a></p>
+</p></div>
+</td>
+</tr>
+</tbody></table>
+<h2>Education Background</h2>
+<ul>
+<li>B.E. in College of Software, <a href="http://www.nankai.edu.cn/">Nankai University</a>, Tianjin, China, 2007-2011</li>
+<li>Study in <a href="http://english.ict.cas.cn/">Institute of Computing Technology</a>, <a href="http://english.cas.cn/">Chinese Academy of Sciences</a>, Beijing, China, 2011-2013</li>
+<li>Ph.D. in <a href="https://istd.sutd.edu.sg/">Information Systems Technology and Design</a>, <a href="http://www.sutd.edu.sg/">Singapore University of Technology and Design</a>, Singapore, 2013-Now</li>
+</ul>
+<h2>Research Interest</h2>
+<p>In general, my research interest lies in program analaysis, programming language and software engineering.</p>
+<p>Currently I am working on the topic to find loop invariant for a given program with loops in it, which stays at the heart of program verification area.</p>
+<p>I am also interested in machine learning and operating system topics.</p>
+<h2>Publications</h2>
+<ul>
+<li>
+<p>Jiaying Li, Jun Sun.<br>
+<a href="http://lijiaying.github.io/papers/icse18.pdf"><strong>Learning Disjunctive Invariants based on Loop Structures</strong></a> (under review)</p>
+</li>
+<li>
+<p>Jiaying Li, Jun Sun, Bo Gao and  ́Etienne Andre ́<br>
+<a href="http://lijiaying.github.io/papers/icfem17.pdf"><strong>Classification-based Parameter Synthesis for Parametric Timed Automata</strong></a><br>
+in <a href="http://ictt.xidian.edu.cn/icfem2017/">ICFEM 2017</a>, Nov. 13-17, Xi'an, China</p>
+</li>
+<li>
+<p>Jiaying Li, Jun Sun, Li Li, Quang Loc Le and Shang-Wei Lin<br>
+<a href="http://lijiaying.github.io/papers/ase17.pdf"><strong>Automatic Loop-invariant Generation and Refinement through Selective Sampling</strong></a><br>
+in <a href="http://ase2017.org/">ASE 2017</a>, Oct. 30 - Nov. 3, Illinois, USA</p>
+</li>
+<li>
+<p>Truong Khanh Nguyen,Tian Huat Tan, Jun Sun, Jiaying Li, Yang Liu, Manman Chen, Jin Song Dong<br>
+<a href="http://lijiaying.github.io/papers/icfem16.pdf"><strong>Scaling BDD-based Timed Verification with Simulation Reduction</strong></a><br>
+in <a href="http://icfem2016.xyz/">ICFEM 2016</a>, Nov. 14-18, Tokyo, Japan</p>
+</li>
+<li>
+<p>Jiaying Li,<br>
+<a href="http://lijiaying.github.io/papers/iceccs15.pdf"><strong>An Invariant Inference Framework using Active Learning and SVMs</strong></a><br>
+In <a href="http://iceccs2015.monash.edu.au/2015/index.jsp">ICECCS 2015</a>, Dec 9-12, Gold Coast, Australia</p>
+</li>
+</ul>
+<h2>Projects (<a href="mailto:dev@jiaying.li">dev@jiaying.li</a> for supports)</h2>
+<ul>
+<li><em>zilu</em>: An Invariant Inference Framework <a href="https://github.com/lijiaying/ZILU">homepage</a></li>
+<li><em>pta-Learn</em>: Parametric Timed automata Learning <a href="https://github.com/lijiaying/pta-Learn">homepage</a></li>
+<li><em>zimu</em>: Structure-based Complext Invariant Learning Framework <a href="https://github.com/lijiaying/zimu">homepage</a></li>
+</ul></body></html>
