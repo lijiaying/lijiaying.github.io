@@ -4,11 +4,10 @@
 <td><IMG SRC="./photo.jpg" width="100"><br></td>
 <td>
 <div>
-<b>PhD, Research Fellow</b> <BR> 
-<a href="https://istd.sutd.edu.sg/">Information Systems of Technology and Design</a><BR>
-<a href="http://www.sutd.edu.sg/">Singapore University of Technology and Design</a>
-<P>Address: 1.314, Singapore Univ. of Tech & Design, 8 Somapah Rd, Singapore, 487372<BR>
-<P>Tel: (+65)91327556<BR>
+<b>PhD, Research Scientist</b> <BR> 
+<a href="https://sis.smu.edu.sg/">School of Information System</a><BR>
+<a href="http://www.smu.edu.sg/">Singapore Management University</a>
+<P>Address: Level 4, School of Information Systems, Singapore Management University, 80 Stamford Road, Singapore 178902 <BR>
 <P>Email: lijiaying1989@gmail.com<BR>
 </div>
 </td>
@@ -19,16 +18,21 @@
 
 
 ## Education Background
-* B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China, 2007-2011
-* Study in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China, 2011-2013
-* Ph.D. in [ISTD](https://istd.sutd.edu.sg/), [SUTD](http://www.sutd.edu.sg/), Singapore, 2013-2018
+* B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China, 2007.9-2011.6
+* Study in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China, 2011.9-2013.5
+* Ph.D. in [ISTD](https://istd.sutd.edu.sg/), [SUTD](http://www.sutd.edu.sg/), Singapore, 2013.9-2018.4
+* Visiting Scholar. Department of Computer Science, University of California, Davis, USA, 2017.12-2018.3
 
 
 ## Research Interest
-Program analaysis, programming language, software engineering. 
+Program analysis, software engineering, constraint solving. 
 
 
 ## Publications
+* Linxiao Yang, Ngai-Man Cheung, Jiaying Li, Jun Fang
+[**Deep Clustering by Gaussian Mixture Variational Autoencoders with Graph Embedding**](http://lijiaying.github.io/papers/iccv19.pdf)
+in International Conference in Computer Vision [ICCV 2019](http://iccv2019.thecvf.com/), Oct. 27 - Nov. 2, Seoul, Korea
+
 * Jiaying Li, Jun Sun, Bo Gao and Etienne Andre
 [**Classification-based Parameter Synthesis for Parametric Timed Automata**](http://lijiaying.github.io/papers/icfem17.pdf)
 in [ICFEM 2017](http://ictt.xidian.edu.cn/icfem2017/), Nov. 13-17, Xi'an, China
