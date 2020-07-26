@@ -18,7 +18,7 @@
 
 ## Education Background
 * B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
-* Msc. (dropped) in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China
+* M.Sc. (dropped) in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China
 * Ph.D. in [Information Systems Technology and Design](https://istd.sutd.edu.sg/), [Singapore University of Technology and Design](http://www.sutd.edu.sg/), Singapore
 * Visiting Scholar in Department of Computer Science, [University of California, Davis](https://www.ucdavis.edu/), California, USA
 
@@ -29,15 +29,15 @@ Program Language, Software Engineering.
 
 ## Preprint
 - [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://lijiaying.github.io/papers/socrates.pdf)  
-Long H. Pham, Jiaying Li, Jun Sun
+Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2020
 
 - [**sVerify: Verifying Smart Contracts through Lazy Annotation and Learning**](http://lijiaying.github.io/papers/ase20.pdf)  
-Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang
+Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
 In submission, 2020
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
-Jiaying Li, Jun Sun
+Jiaying Li, Jun Sun   
 Unpublished Manuscript, 2018
 
 
