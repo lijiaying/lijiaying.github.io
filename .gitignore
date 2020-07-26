@@ -4,3 +4,6 @@
 *.synctex.gz
 *.fdb_latexmk
 *.lb
+.DS.*
+._.DS*
+._*
