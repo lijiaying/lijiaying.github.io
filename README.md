@@ -32,9 +32,11 @@ Program Language, Software Engineering.
 Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2020
 
-- [**sVerify: Verifying Smart Contracts through Lazy Annotation and Learning**](http://lijiaying.github.io/papers/ase20.pdf)  
+<!---
+- [**sVerify: Verifying Smart Contracts through Lazy Annotation and Learning](http://lijiaying.github.io/papers/ase20.pdf)  
 Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
 In submission, 2020
+-->
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
 Jiaying Li, Jun Sun   
