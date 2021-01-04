@@ -16,8 +16,9 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
 
-Jiaying Li is a research scientist in SIS, SMU. Before that, he was a research fellow in ISTD, SUTD where he got his PhD
-degree. He got his bachelor from Nankai University, China.
+Jiaying Li is a research scientist in SIS, SMU. Before that, he was a research fellow in ISTD, SUTD after he got his PhD
+degree there. He got his bachelor degree from Nankai University, China.
+
 
 ## Education Background
 * B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
@@ -27,20 +28,14 @@ degree. He got his bachelor from Nankai University, China.
 
 
 ## Research Interest
-Software-related topics, especially software testing. 
+Software testing, verification, or other security-related, learning-related topics
 
-#### Software testing/debugging/analysis
-I am full of ideas related to software testing, including traditional softwares, AI systems, and smart contracts.
-Collaborations or discussions on testing-related topics are welcome. Let's do something that can indeed help developers.
-Drop me an email.
+#### !@#$^&()
+I am full of ideas related to software testing/debugging/analysis/verification, including traditional softwares, AI systems, and smart contracts.
+Collaborations or discussions are welcome. 
 
-#### Software verification/reasoning, constraint solving
-I have some expertise in software verification, includeing traditinoal softwares, AI systems, and smart contracts. 
-Discussions are welcome.
+Drop me an email and let's do something that can indeed help the community.
 
-#### Topics in system, security, algorithm, and PL
-I do not have expertise in these fields but I am keeping my eyes on them. Any discussions are welcome and I am really
-appreciate that.
 
 
 ## Preprint
@@ -48,15 +43,11 @@ appreciate that.
 Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2020
 
-<!---
-- [**sVerify: Verifying Smart Contracts through Lazy Annotation and Learning](http://lijiaying.github.io/papers/ase20.pdf)  
-Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
-In submission, 2020
--->
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
 Jiaying Li, Jun Sun   
 Unpublished Manuscript, 2018
+
 
 
 ## Publications
