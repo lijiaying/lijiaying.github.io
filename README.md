@@ -33,9 +33,11 @@ Software-related topics, especially software testing.
 I am full of ideas related to software testing, including traditional softwares, AI systems, and smart contracts.
 Collaborations or discussions on testing-related topics are welcome. Let's do something that can indeed help developers.
 Drop me an email.
-#### Softwre verification/reasoning, constraint solving
+
+#### Software verification/reasoning, constraint solving
 I have some expertise in software verification, includeing traditinoal softwares, AI systems, and smart contracts. 
 Discussions are welcome.
+
 #### Topics in system, security, algorithm, and PL
 I do not have expertise in these fields but I am keeping my eyes on them. Any discussions are welcome and I am really
 appreciate that.
