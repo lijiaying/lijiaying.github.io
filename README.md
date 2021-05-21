@@ -5,7 +5,7 @@
 <td>
 <div>
 <b>PhD, Research Scientist</b> <BR> 
-<a href="https://sis.smu.edu.sg/">School of Information System</a><BR>
+<a href="https://scis.smu.edu.sg/">School of Computing and Information System</a><BR>
 <a href="http://www.smu.edu.sg/">Singapore Management University</a>
 <P>Address: Level 4, School of Information Systems, Singapore Management University, 80 Stamford Road, Singapore 178902 <BR>
 <P>Email: lijiaying1989@gmail.com<BR>
@@ -16,7 +16,7 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
 
-I will join Microsoft, China, soon. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD
+I will join Microsoft, China. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD
 degree there. I got my bachelor degree from Nankai University, China.
 
 
@@ -33,24 +33,17 @@ Software testing, verification, or other security-related, learning-related topi
 #### Current Interested Topics:
 + Neural network related:
 	- Why do adversarial examples show the transferability between different models?
-	- Does local robustness a good measurement for neural network security? If not, how can we define a better one?
 	- What's the upper bound of global robustness for a given dataset? How can we approach, or even arrive at it?
-	- How to generate hard-to-detect adversarial examples?
 
 + Constraint solving related:
 	- Is there any efficient way to prove a constraint is unsat?
-	- Whether a constraint is sat or unsat is deterministic problem, if the space is finite. In other words, it is
-		discrete. Can we make it continuous, or even differentiable?
-	- For infinite search space, how to estimate the gap between sat and unsat? [open question]
 	- Build a lattice-based solvers, compositional. [great engineering effort is required.]
 
 + Program analysis related:
-	- Test constraint solvers
-	- Test numerial domains
+	- Test abstraction. 
 	- Differential interpretation. 
-	- Simplify existing program analysis techniques. 
 
-Drop me an email if you are intested in any topic and self-motivated.
+Drop me an email if you are interested in any topic and self-motivated.
 
 
 
