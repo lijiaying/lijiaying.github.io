@@ -16,9 +16,10 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
 
-I will join Microsoft, China. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD
-degree there. I got my bachelor degree from Nankai University, China.
+I will join Microsoft, China. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD degree there. I got my bachelor degree from Nankai University, China.
 
+During my early academic exploration years, I have great honors to be supervised by:
+Prof. Sun Jun (SUTD, currently@SMU), and Prof. Su Zhendong (UC Davis, currently@ETH Zurich)
 
 ## Education Background
 * B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
@@ -27,23 +28,22 @@ degree there. I got my bachelor degree from Nankai University, China.
 * Visiting Scholar in Department of Computer Science, [University of California, Davis](https://www.ucdavis.edu/), California, USA
 
 
+
 ## Research Interest
-Software testing, verification, or other security-related, learning-related topics
+Software Testing, Verification, Security, Learning
 
-#### Current Interested Topics:
-+ Neural network related:
-	- Why do adversarial examples show the transferability between different models?
-	- What's the upper bound of global robustness for a given dataset? How can we approach, or even arrive at it?
+#### Interested Problems:
++ Why do adversarial examples show the transferability?
++ How can we protect neural models from adversarial examples?
++ How can we effectively test abstractions? 
 
-+ Constraint solving related:
-	- Is there any efficient way to prove a constraint is unsat?
-	- Build a lattice-based solvers, compositional. [great engineering effort is required.]
+#### Interested Projects:
++ Structural search.
++ Differential interpretation. 
++ Interpretable refinement.
++ Reinforcement learning-based strategy synthesis.
 
-+ Program analysis related:
-	- Test abstraction. 
-	- Differential interpretation. 
-
-Drop me an email if you are interested in any topic and self-motivated.
+Drop me an email if you are interested in any topic.
 
 
 
