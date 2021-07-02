@@ -33,17 +33,11 @@ Prof. Sun Jun (SUTD, currently@SMU), and Prof. Su Zhendong (UC Davis, currently@
 Software Testing, Verification, Security, Learning
 
 #### Interested Problems:
-+ Why do adversarial examples show the transferability?
-+ How can we protect neural models from adversarial examples?
-+ How can we effectively test abstractions? 
-
-#### Interested Projects:
++ Abstraction testing 
 + Structural search.
 + Differential interpretation. 
 + Interpretable refinement.
-+ Reinforcement learning-based strategy synthesis.
 
-Drop me an email if you are interested in any topic.
 
 
 
