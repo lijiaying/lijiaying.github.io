@@ -39,15 +39,25 @@ Testing, Verification, Security, Learning, Operating System
 
 
 
-## Preprint
-- [**The $L_i$-Interpretable Hypothesis: Towards Interpretable Abstraction Refinement For Neural Network Verification**](http://lijiaying.github.io)  
+## Preprints
+- [**The $L_i$-Interpretable Hypothesis: Towards Interpretable Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
 Jiaying Li   
 In submission, 2021
 
 
-- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://lijiaying.github.io/papers/socrates.pdf)  
+- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
-In submission, 2020
+In submission, 2021
+
+
+- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf)  
+Long H. Pham, Jiaying Li, Jun Sun  
+In submission, 2021
+
+
+- [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io)
+Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang 
+In submission, 2021
 
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
