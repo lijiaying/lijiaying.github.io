@@ -19,7 +19,7 @@
 I will join Microsoft, China. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD degree there. I got my bachelor degree from Nankai University, China.
 
 During my early academic exploration years, I have great honors to be supervised by:
-Prof. Sun Jun (SUTD, currently@SMU), and Prof. Su Zhendong (UC Davis, currently@ETH Zurich)
+Prof. [Sun Jun](http://sunjun.site/) (SUTD, currently@SMU), and Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, currently@ETH Zurich)
 
 ## Education Background
 * B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
@@ -29,19 +29,19 @@ Prof. Sun Jun (SUTD, currently@SMU), and Prof. Su Zhendong (UC Davis, currently@
 
 
 
-## Research Interest
+## Research Interests
 Testing, Verification, Security, Learning, Operating System
 
 #### Interested Problems:
-+ Testing. 
++ System Testing/Verification.
 + Interpretablity.
 + Security issues in deep learning systems.
 
 
 
 ## Preprint
-- [**The Li-Interpretable Hypothesis: Towards Interpretable Abstraction Refinement For Neural Network Verification**](http://lijiaying.github.io)  
-Jiaying Li 
+- [**The $L_i$-Interpretable Hypothesis: Towards Interpretable Abstraction Refinement For Neural Network Verification**](http://lijiaying.github.io)  
+Jiaying Li   
 In submission, 2021
 
 
