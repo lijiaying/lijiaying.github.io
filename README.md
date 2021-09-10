@@ -30,17 +30,17 @@ Prof. [Sun Jun](http://sunjun.site/) (SUTD, currently@SMU), and Prof. [Su Zhendo
 
 
 ## Research Interests
-Testing, Verification, Security, Learning, Operating System
+Testing, Verification, Security, Learning, Operating Systems
 
 #### Interested Problems:
-+ System Testing/Verification.
++ System testing/verification.
 + Interpretablity.
 + Security issues in deep learning systems.
 
 
 
 ## Preprints
-- [**The $L_i$-Interpretable Hypothesis: Towards Interpretable Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
+- [**The $L_i$-Interpretability Hypothesis: Towards Interpretable Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
 Jiaying Li   
 In submission, 2021
 
