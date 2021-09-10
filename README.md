@@ -30,18 +30,21 @@ Prof. Sun Jun (SUTD, currently@SMU), and Prof. Su Zhendong (UC Davis, currently@
 
 
 ## Research Interest
-Software Testing, Verification, Security, Learning
+Testing, Verification, Security, Learning, Operating System
 
 #### Interested Problems:
-+ Abstraction testing 
-+ Structural search.
-+ Differential interpretation. 
-+ Interpretable refinement.
-
++ Testing. 
++ Interpretablity.
++ Security issues in deep learning systems.
 
 
 
 ## Preprint
+- [**The Li-Interpretable Hypothesis: Towards Interpretable Abstraction Refinement For Neural Network Verification**](http://lijiaying.github.io)  
+Jiaying Li 
+In submission, 2021
+
+
 - [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://lijiaying.github.io/papers/socrates.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2020
