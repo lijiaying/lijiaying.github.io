@@ -55,7 +55,7 @@ Long H. Pham, Jiaying Li, Jun Sun
 In submission, 2021
 
 
-- [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io)
+- [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io)  
 Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang 
 In submission, 2021
 
