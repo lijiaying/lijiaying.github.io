@@ -44,29 +44,28 @@ Testing, Verification, Security, Learning, Operating Systems
 Jiaying Li   
 In submission, 2021
 
-
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2021
-
 
 - [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2021
 
-
 - [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io)  
 Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
 In submission, 2021
-
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
 Jiaying Li, Jun Sun   
 Unpublished Manuscript, 2018
 
 
-
 ## Publications
+- [** Verification Assisted Gas Reduction for Smart Contracts **](http://lijiaying.github.io)  
+Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu 
+In [APSEC 2021](https://apsec2021.seat.org.tw/), Virtual, December 6-9, 2021
+
 - [**Deep Clustering by Gaussian Mixture Variational Autoencoders with Graph Embedding**](http://lijiaying.github.io/papers/iccv19.pdf)  
 Linxiao Yang, Ngai-Man Cheung, Jiaying Li, Jun Fang  
 In [ICCV 2019](http://iccv2019.thecvf.com/), Seoul, Korea, October 27 - November 2, 2019
