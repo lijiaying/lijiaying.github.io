@@ -62,9 +62,9 @@ Unpublished Manuscript, 2018
 
 
 ## Publications
-- [** Verification Assisted Gas Reduction for Smart Contracts **](http://lijiaying.github.io)  
-Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu 
-In [APSEC 2021](https://apsec2021.seat.org.tw/), Virtual, December 6-9, 2021
+- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io)  
+Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu  
+In [APSEC 2021](https://apsec2021.seat.org.tw/), Virtual, December 6-9, 2021  
 
 - [**Deep Clustering by Gaussian Mixture Variational Autoencoders with Graph Embedding**](http://lijiaying.github.io/papers/iccv19.pdf)  
 Linxiao Yang, Ngai-Man Cheung, Jiaying Li, Jun Fang  
