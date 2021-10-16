@@ -18,8 +18,9 @@
 
 I will join Microsoft, China. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD degree there. I got my bachelor degree from Nankai University, China.
 
-During my early academic exploration years, I have great honors to be supervised by:
+During my early academic exploration years, I had great honors to be supervised by:
 Prof. [Sun Jun](http://sunjun.site/) (SUTD, currently@SMU), and Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, currently@ETH Zurich)
+
 
 ## Education Background
 * B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
@@ -30,17 +31,12 @@ Prof. [Sun Jun](http://sunjun.site/) (SUTD, currently@SMU), and Prof. [Su Zhendo
 
 
 ## Research Interests
-Testing, Verification, Security, Learning, Operating Systems
-
-#### Interested Problems:
-+ System testing/verification.
-+ Interpretablity.
-+ Security issues in deep learning systems.
+Testing, Verification, Machine Learning
 
 
 
 ## Preprints
-- [**The $L_i$-Interpretability Hypothesis: Towards Interpretable Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
+- [**Aha: Interpretable Refinement for Neural Network Verification**](http://lijiaying.github.io)  
 Jiaying Li   
 In submission, 2021
 
@@ -52,19 +48,19 @@ In submission, 2021
 Long H. Pham, Jiaying Li, Jun Sun  
 In submission, 2021
 
-- [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io)  
-Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
-In submission, 2021
-
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
 Jiaying Li, Jun Sun   
 Unpublished Manuscript, 2018
 
 
 ## Publications
-- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io)  
+- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/sOptimize.pdf)  
 Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu  
 In [APSEC 2021](https://apsec2021.seat.org.tw/), Virtual, December 6-9, 2021  
+
+- [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io/papers/sVerify.pdf)  
+Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
+In [ISoLA 2021](https://isola-conference.org/isola2021/), Rhodes, Greece, October 17-29, 2021
 
 - [**Deep Clustering by Gaussian Mixture Variational Autoencoders with Graph Embedding**](http://lijiaying.github.io/papers/iccv19.pdf)  
 Linxiao Yang, Ngai-Man Cheung, Jiaying Li, Jun Fang  
