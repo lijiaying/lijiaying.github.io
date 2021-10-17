@@ -36,7 +36,7 @@ Testing, Verification, Machine Learning
 
 
 ## Preprints
-- [**Aha: Interpretable Refinement for Neural Network Verification**](http://lijiaying.github.io)  
+- [**Interpretable Refinement for Neural Network Verification**](http://lijiaying.github.io)  
 Jiaying Li   
 In submission, 2021
 
