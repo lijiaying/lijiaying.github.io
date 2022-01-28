@@ -36,7 +36,7 @@ Testing, Verification, Machine Learning, Program Analysis
 
 
 ## Preprints
-- [**A Principled Approach to Abstraction Refinement]{A Principled Approach to Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
+- [**A Principled Approach to Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
 Jiaying Li, Guangdong Bai, Long H. Pham, Jiaying Li
 In submission, 2022
 
