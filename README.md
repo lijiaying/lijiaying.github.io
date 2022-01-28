@@ -4,11 +4,10 @@
 <td><IMG SRC="./photo.jpg" width="100"><br></td>
 <td>
 <div>
-<b>PhD, Research Scientist</b> <BR> 
-<a href="https://scis.smu.edu.sg/">School of Computing and Information System</a><BR>
-<a href="http://www.smu.edu.sg/">Singapore Management University</a>
-<P>Address: Level 4, School of Information Systems, Singapore Management University, 80 Stamford Road, Singapore 178902 <BR>
-<P>Email: lijiaying1989@gmail.com<BR>
+<b>PhD, Senior Software Engineer</b> <BR> 
+<P>Address: Level 8, No. 5, Danling Street, Haidian District, Beijing, China<BR>
+<P>Email: jiayingli@microsoft.com (official), lijiaying1989@gmail.com (personal)<BR>
+<P>Wechat: lijiayinghahaha<BR>
 </div>
 </td>
 </tr>
@@ -16,10 +15,10 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
 
-I will join Microsoft, China. Currently I am a research scientist in SCIS, SMU. Before that, I was a research fellow in ISTD, SUTD after I got my PhD degree there. I got my bachelor degree from Nankai University, China.
+Currently, I work for Bing Platform team in Microsoft, China. Before that, I was a research scientist in SCIS, SMU, Singapore, a research fellow in ISTD, SUTD. I got my PhD degree from SUTD, and my bachelor degree from Nankai University, China.
 
 During my early academic exploration years, I had great honors to be supervised by:
-Prof. [Sun Jun](http://sunjun.site/) (SUTD, currently@SMU), and Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, currently@ETH Zurich)
+Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore), and Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, US, currently at ETH Zurich, Swissland)
 
 
 ## Education Background
@@ -31,30 +30,34 @@ Prof. [Sun Jun](http://sunjun.site/) (SUTD, currently@SMU), and Prof. [Su Zhendo
 
 
 ## Research Interests
-Testing, Verification, Machine Learning
+Testing, Verification, Machine Learning, Program Analysis
+
 
 
 
 ## Preprints
-- [**Interpretable Refinement for Neural Network Verification**](http://lijiaying.github.io)  
-Jiaying Li   
-In submission, 2021
+- [**A Principled Approach to Abstraction Refinement]{A Principled Approach to Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
+Jiaying Li, Guangdong Bai, Long H. Pham, Jiaying Li
+In submission, 2022
 
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
-In submission, 2021
+In submission, 2022
 
 - [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
-In submission, 2021
+In submission, 2022
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/icse18.pdf)  
 Jiaying Li, Jun Sun   
 Unpublished Manuscript, 2018
 
 
+
+
+
 ## Publications
-- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/sOptimize.pdf)  
+- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/sOptimize.pdf)  [Best Paper]
 Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu  
 In [APSEC 2021](https://apsec2021.seat.org.tw/), Virtual, December 6-9, 2021  
 
