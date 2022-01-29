@@ -13,12 +13,12 @@
 </tr>
 </table>
 
-[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
+[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf) [outdated, the link may be not valid for now.]
 
-Currently, I work for Bing Platform team in Microsoft, China. Before that, I was a research scientist in SCIS, SMU, Singapore, a research fellow in ISTD, SUTD. I got my PhD degree from SUTD, and my bachelor degree from Nankai University, China.
+Currently, I work for Bing Platform team in Microsoft, China. Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore, a research fellow in ISTD, SUTD (Singapore University of Technology and Design). I got my PhD degree from SUTD, and my Bachelor degree from Nankai University, China.
 
 During my early academic exploration years, I had great honors to be supervised by:
-Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore), and Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, US, currently at ETH Zurich, Swissland)
+Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore), and Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, US, currently at ETH Zurich, Switzerland)
 
 
 ## Education Background
@@ -37,7 +37,7 @@ Testing, Verification, Machine Learning, Program Analysis
 
 ## Preprints
 - [**A Principled Approach to Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
-Jiaying Li, Guangdong Bai, Long H. Pham, Jun Sun 
+Jiaying Li, Guangdong Bai, Long H. Pham, Jun Sun  
 In submission, 2022
 
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf)  
