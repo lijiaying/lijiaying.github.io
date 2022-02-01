@@ -57,9 +57,9 @@ Unpublished Manuscript, 2018
 
 
 ## Publications
-- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/sOptimize.pdf)  [Best Paper]
+- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/sOptimize.pdf)  **Best Paper**  
 Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu  
-In [APSEC 2021](https://apsec2021.seat.org.tw/), Virtual, December 6-9, 2021  
+In [APSEC 2021](https://apsec2021.seat.org.tw/), Taibei, Taiwan, December 6-9, 2021  
 
 - [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io/papers/sVerify.pdf)  
 Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
