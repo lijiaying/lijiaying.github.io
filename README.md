@@ -36,9 +36,9 @@ Testing, Verification, Machine Learning, Program Analysis
 
 
 ## Preprints
-- [**A Principled Approach to Abstraction Refinement for Neural Network Verification**](http://lijiaying.github.io)  
-Jiaying Li, Guangdong Bai, Long H. Pham, Jun Sun  
-In submission, 2022
+- [**Towards Practical Abstract Interpretation Repair**](http://lijiaying.github.io)  
+Jiaying Li
+In submission, 2023
 
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun  
@@ -57,6 +57,10 @@ Unpublished Manuscript, 2018
 
 
 ## Publications
+- [**A Comprehensive Study of Real-World Bugs in Machine Learning Model Optimization**](http://lijiaying.github.io)
+Hao Guan, Ying Xiao, Jiaying Li, Yepang Liu, Guangdong Bai
+In [ICSE 2023](https://conf.researchr.org/home/icse-2023), Melbourne, Austrilia, 14-20 May 2023
+
 - [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/sOptimize.pdf)  **Best Paper**  
 Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu  
 In [APSEC 2021](https://apsec2021.seat.org.tw/), Taibei, Taiwan, December 6-9, 2021  
