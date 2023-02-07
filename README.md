@@ -35,8 +35,6 @@ Program Analysis, Testing, Verification, Machine Learning
 
 
 ## Preprints
-- [**Towards Practical Abstract Interpretation Repair**](http://lijiaying.github.io) Jiaying Li, In submission, 2023
-
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf) Long H. Pham, Jiaying Li, Jun Sun, In submission, 2022
 
 - [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf) Long H. Pham, Jiaying Li, Jun Sun, In submission, 2022
