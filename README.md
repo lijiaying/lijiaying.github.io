@@ -13,9 +13,9 @@
 </tr>
 </table>
 
-[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf) [outdated, the link may be not valid for now.]
+[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
 
-Currently, I work for Bing Platform team in Microsoft, China. 
+Currently, I am working for Bing Platform team in Microsoft, China. 
 Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore, a research fellow in ISTD, SUTD (Singapore University of Technology and Design). 
 I got my PhD degree from SUTD, and my Bachelor degree from Nankai University, China.
 
@@ -33,6 +33,12 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 
 ## Research Interests
 Software Engineering, Formal Verification, Program Analysis, Artifitial Intelligence 
+
+My primary research focuses on the correctness of software systems, including classic computer programs, smart
+contracts (programs ran on the block chain infrastructures), and artificial intelligence systems such as deep neural
+networks. I also have a broad interest in both the theoretic and practical aspects of software analysis, testing,
+debugging and verification. My vision is to furnish new insights and perspectives, as well as to develop prototype
+tools, in order to help practitioners build trustworthy and high-quality software systems.
 
 
 
@@ -52,7 +58,7 @@ Software Engineering, Formal Verification, Program Analysis, Artifitial Intellig
 
 - [**A Comprehensive Study of Real-World Bugs in Machine Learning Model Optimization**](http://lijiaying.github.io/papers/icse23_MOB.pdf) Hao Guan, Ying Xiao, Jiaying Li, Yepang Liu, Guangdong Bai, In [ICSE 2023](https://conf.researchr.org/home/icse-2023), Melbourne, Australia
 
-- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/apsec21_sOptimize.pdf)  [**Best Paper**](http://lijiaying.github.io/papers/apsec21_bestpaper.pdf) Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu, In [APSEC 2021](https://apsec2021.seat.org.tw/), Taipei, Taiwan
+- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/apsec21_sOptimize.pdf)  **Best Paper** Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu, In [APSEC 2021](https://apsec2021.seat.org.tw/), Taipei, Taiwan
 
 - [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io/papers/isola21_sVerify.pdf) Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang, In [ISoLA 2021](https://isola-conference.org/isola2021/), Rhodes, Greece
 
