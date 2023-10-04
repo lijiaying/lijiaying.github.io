@@ -32,7 +32,7 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 
 
 ## Research Interests
-Software Engineering, Programming Languages, Software Verification, Machine Learning 
+Software Engineering, Formal Verification, Program Analysis, Artifitial Intelligence 
 
 
 
@@ -46,8 +46,9 @@ Software Engineering, Programming Languages, Software Verification, Machine Lear
 
 
 ## Publications
+- [**ReLU Hull Approximation**](http://lijiaying.github.io) Zhongkui Ma, Jiaying Li, Guangdong Bai, In [POPL 2024](https://popl24.sigplan.org/), London, United Kingdom 
 
-- [**Towards an Effective and Interpretable Refinement Approach for DNN Verification**](http://lijiaying.github.io/papers/qrs23_Surgeon.pdf) Jiaying Li, Guangdong Bai, Long H. Pham, Jun Sun, In [QRS 2023](https://qrs23.techconf.org), Chiang Mai, Thailand 
+- [**Towards an Effective and Interpretable Refinement Approach for DNN Verification**](http://lijiaying.github.io/papers/qrs23_Surgeon.pdf) Jiaying Li, Guangdong Bai, Long H. Pham, Jun Sun, In [QRS 2023](https://qrs23.techconf.org/), Chiang Mai, Thailand
 
 - [**A Comprehensive Study of Real-World Bugs in Machine Learning Model Optimization**](http://lijiaying.github.io/papers/icse23_MOB.pdf) Hao Guan, Ying Xiao, Jiaying Li, Yepang Liu, Guangdong Bai, In [ICSE 2023](https://conf.researchr.org/home/icse-2023), Melbourne, Australia
 
