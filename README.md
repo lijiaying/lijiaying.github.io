@@ -1,26 +1,34 @@
-# Jiaying Li
+# LI Jiaying (李家营)
 <table width="68%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
 <td><IMG SRC="./photo.jpg" width="100"><br></td>
 <td>
 <div>
-<b>PhD, Senior Software Engineer</b> <BR> 
+<b>PhD </b> <BR> 
+<b>Senior Software Development Engineer, Microsoft</b> <BR> 
 <P>Address: 8308, Building 2, No. 5, Danling Street, Haidian District, Beijing, China<BR>
-<P>Email: jiayingli@microsoft.com (official), lijiaying1989@gmail.com (personal)<BR>
+<P>Email: jiayingli@microsoft.com (official), lijiaying1989@gmail.com (personal and perferred)<BR>
 <P>Wechat: lijiayinghahaha<BR>
 </div>
 </td>
 </tr>
 </table>
 
-[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)
+[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)(might be outdated.)
 
 Currently, I am working for Bing Platform team in Microsoft, China. 
-Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore, a research fellow in ISTD, SUTD (Singapore University of Technology and Design). 
+
+Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore, 
+
+a research fellow in ISTD, SUTD (Singapore University of Technology and Design). 
+
 I got my PhD degree from SUTD, and my Bachelor degree from Nankai University, China.
 
+
 During my early academic exploration years, I had great honors to be supervised by Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore). 
+
 I also had a wonderful experience when visiting Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, US, currently at ETH Zurich, Switzerland)
+
 
 
 ## Education Background
@@ -32,22 +40,21 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 
 
 ## Research Interests
-Software Engineering, Formal Verification, Program Analysis, Artifitial Intelligence 
+** Software Engineering, Formal Verification, Program Analysis, Artifitial Intelligence **
 
 My primary research focuses on the correctness of software systems, including classic computer programs, smart
-contracts (programs ran on the block chain infrastructures), and artificial intelligence systems such as deep neural
+
+contracts (programs running on the block chain infrastructures), and artificial intelligence systems such as neural
+
 networks. I also have a broad interest in both the theoretic and practical aspects of software analysis, testing,
-debugging and verification. My vision is to furnish new insights and perspectives, as well as to develop prototype
-tools, in order to help practitioners build trustworthy and high-quality software systems.
+
+debugging and verification. My vision is to develop new theories and pratices that can indeed help practitioners 
+
+build trustworthy and high-quality software systems.
 
 
+I welcome all the collabration from academia and industrials. Send me an email if you are interested.
 
-## Preprints
-- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf) Long H. Pham, Jiaying Li, Jun Sun, Manuscript, 2022
-
-- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf) Long H. Pham, Jiaying Li, Jun Sun, Manuscript, 2022
-
-- [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/zimu.pdf) Jiaying Li, Jun Sun, Manuscript, 2018
 
 
 
@@ -72,3 +79,11 @@ tools, in order to help practitioners build trustworthy and high-quality softwar
 
 - [**An Invariant Inference Framework using Active Learning and SVMs**](http://lijiaying.github.io/papers/iceccs15.pdf) Jiaying Li, In [ICECCS 2015](http://iceccs2015.monash.edu.au/2015/index.jsp), Gold Coast, Australia 
 
+
+
+## Preprints
+- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf) Long H. Pham, Jiaying Li, Jun Sun, Manuscript, 2022
+
+- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf) Long H. Pham, Jiaying Li, Jun Sun, Manuscript, 2022
+
+- [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/zimu.pdf) Jiaying Li, Jun Sun, Manuscript, 2018
