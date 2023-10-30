@@ -5,7 +5,7 @@
 <td>
 <div>
 <b>PhD </b> <BR> 
-<b>Senior Software Development Engineer, Microsoft</b> <BR> 
+<b>Senior SDE (Senior Researcher Equivalent), Microsoft</b> <BR> 
 <P>Address: 8308, Building 2, No. 5, Danling Street, Haidian District, Beijing, China<BR>
 <P>Email: jiayingli@microsoft.com (official), lijiaying1989@gmail.com (personal and perferred)<BR>
 <P>Wechat: lijiayinghahaha<BR>
@@ -14,7 +14,7 @@
 </tr>
 </table>
 
-[Curriculum Vitae](http://lijiaying.github.io/cv/cv.pdf)(might be outdated.)
+[Curriculum Vitae](http://lijiaying.github.io/cv/cv_en.pdf)(might be outdated.)
 
 Currently, I am working for Bing Platform team in Microsoft, China. 
 Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore, 
