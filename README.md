@@ -38,10 +38,11 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 ## Research Interests
 **Software Verification, Programming Languages, Artifitial Intelligence**
 
-My primary research focuses on the correctness of software systems, including but not limited to classic computer 
-programs, smart contracts and artificial intelligence systems. I also have a broad interest in both the theoretic 
-and practical aspects of software analysis, testing and verification. My vision is to develop new theories and 
-pratices to help practitioners build trustworthy and high-quality software systems.
+My primary research focuses on the correctness of software systems, including but not limited to  
+classic computer programs, smart contracts and artificial intelligence systems. I also have a broad  
+interest in both the theoretic and practical aspects of software analysis, testing and verification.    
+My vision is to develop new theories and pratices to help practitioners build trustworthy and high-  
+quality software systems.
 
 I welcome all the collabration from academia and industrials. Send me an email if you are interested.
 
@@ -102,12 +103,12 @@ In the 20th International Conference on Engineering of Complex Computer Systems 
 
 ## Preprints
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/preprint21_deeppoly_refine.pdf)  
-Long H. Pham, Jiaying Li, Jun Sun  
+Long H. Pham, Jiaying Li, Jun Sun   
 Preprint, 2021
 
 
 - [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://jiaying.li/papers/preprint20_socrates.pdf)  
-Long H. Pham, Jiaying Li, Jun Sun 
+Long H. Pham, Jiaying Li, Jun Sun   
 Preprint, 2020
 
 
@@ -116,14 +117,17 @@ Jiaying Li, Jun Sun
 Preprint, 2018
 
 
+
 ## Professional Services
-- Program Committee: ICFEM 2023
-- Reviewer/Sub-Reviewer: APSEC2016, ICECCS 2017, SATE18, ICFEM2018, ICFEM2019, TASE 2019, FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022, ICFEM 2023
+- **Program Committee**: ICFEM 2023
+- **Reviewer/Sub-Reviewer**: APSEC2016, ICECCS 2017, SATE18, ICFEM2018, ICFEM2019, TASE 2019, FormaliSE 2019,   
+AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022, ICFEM 2023
+
 
 
 ## Supervised/Co-supervised Students
 - Hao Guan, Ph.D. student in SUST and UQ, 2022-
 - Zhongkui Ma, Master student in UQ, 2022-2023
 - Ruijuan Li, Master student in CAS, 2022
-- Bo Gao, Ph.D. student in SUTD, 2018-2021 
+- Bo Gao, Ph.D. student in SUTD, 2019-2021 
 
