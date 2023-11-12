@@ -1,7 +1,7 @@
 # LI Jiaying (李家营)
 <table width="80%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="./photos/photo.jpg" width="100"><br></td>
+<td><IMG SRC="./photos/photo.jpg" width="120"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
@@ -16,13 +16,13 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv_en.pdf)(might be outdated.)
 
-Currently, I am working for Saas team under Bing Platform in Microsoft, China. 
-Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore, 
-a research fellow in ISTD, SUTD (Singapore University of Technology and Design). 
-I got my PhD degree from SUTD, and my Bachelor degree from Nankai University, China.
+Currently, I am working for Saas team under Bing Platform in Microsoft, China.   
+Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore,   
+a research fellow in ISTD, SUTD (Singapore University of Technology and Design).  
+I got my PhD degree from SUTD, and my Bachelor degree from Nankai University, China.  
 
 
-During my early academic exploration years, I had great honors to be supervised by Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore). 
+During my early academic exploration years, I had great honors to be supervised by Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore).  
 I also had a wonderful experience when visiting Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, US, currently at ETH Zurich, Switzerland)
 
 
@@ -36,7 +36,7 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 
 
 ## Research Interests
-**Formal Verification, Programming Languages, Software Engineering, Artifitial Intelligence**
+**Software Verification, Programming Languages, Artifitial Intelligence**
 
 My primary research focuses on the correctness of software systems, including but not limited to classic computer 
 programs, smart contracts and artificial intelligence systems. I also have a broad interest in both the theoretic 
@@ -51,63 +51,79 @@ I welcome all the collabration from academia and industrials. Send me an email i
 ## Publications
 - [**ReLU Hull Approximation**](http://lijiaying.github.io)   
 Zhongkui Ma, Jiaying Li, Guangdong Bai  
-[The 51st ACM SIGPLAN Symposium on Principles of Programming Languages](https://popl24.sigplan.org/) (POPL), 2024
+In the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2024
 
 
 - [**Towards an Effective and Interpretable Refinement Approach for DNN Verification**](http://lijiaying.github.io/papers/qrs23_Surgeon.pdf)  
 Jiaying Li, Guangdong Bai, Long H. Pham, Jun Sun  
-[The 23rd IEEE International Conference on Software Quality, Reliability, and Security](https://qrs23.techconf.org/) (QRS), 2023 
+In the 23rd IEEE International Conference on Software Quality, Reliability, and Security (QRS), 2023 
 
 
 - [**A Comprehensive Study of Real-World Bugs in Machine Learning Model Optimization**](http://lijiaying.github.io/papers/icse23_MOB.pdf)  
 Hao Guan, Ying Xiao, Jiaying Li, Yepang Liu, Guangdong Bai  
-[The 45th IEEE/ACM International Conference on Software Engineering](https://conf.researchr.org/home/icse-2023) (ICSE), 2023 
+In the 45th IEEE/ACM International Conference on Software Engineering (ICSE), 2023 
 
 
-- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/apsec21_sOptimize.pdf)  **Best Paper**   
+- [**Verification Assisted Gas Reduction for Smart Contracts**](http://lijiaying.github.io/papers/apsec21_sOptimize.pdf)  
 Bo Gao, Siyuan Shen, Ling Shi, Jiaying Li, Jun Sun, Lei Bu  
-[The 28th Asia-Pacific Software Engineering Conference](https://apsec2021.seat.org.tw/) (APSEC) 2021
+In the 28th Asia-Pacific Software Engineering Conference (APSEC), 2021, **Best Paper**
 
 
 - [**sVerify: Verifying Smart Contracts through LazyAnnotation and Learning**](http://lijiaying.github.io/papers/isola21_sVerify.pdf)   
 Bo Gao, Ling Shi, Jiaying Li, Jialiang Chang, Jun Sun, Zijiang Yang  
-[The 10th International Symposium On Leveraging Applications of Formal Methods, Verification and Validation](https://isola-conference.org/isola2021/) (ISoLA) 2021
+In the 10th International Symposium On Leveraging Applications of Formal Methods, Verification and Validation (ISoLA), 2021
 
 
 - [**Deep Clustering by Gaussian Mixture Variational Autoencoders with Graph Embedding**](http://lijiaying.github.io/papers/iccv19.pdf)  
 Linxiao Yang, Ngai-Man Cheung, Jiaying Li, Jun Fang  
-[The International Conference in Computer Vision](http://iccv2019.thecvf.com/) (ICCV), 2019 
+In the International Conference in Computer Vision (ICCV), 2019 
 
 
 - [**Classification-based Parameter Synthesis for Parametric Timed Automata**](http://lijiaying.github.io/papers/icfem17.pdf)  
 Jiaying Li, Jun Sun, Bo Gao and \'{E}tienne Andr\'{e}  
-[The 19th International Conference on Formal Engineering Methods](http://ictt.xidian.edu.cn/icfem2017/) (ICFEM), 2017
+In the 19th International Conference on Formal Engineering Methods (ICFEM), 2017
 
 
 - [**Automatic Loop-invariant Generation and Refinement through Selective Sampling**](http://lijiaying.github.io/papers/ase17_zilu.pdf)  
 Jiaying Li, Jun Sun, Li Li, Quang Loc Le and Shang-Wei Lin  
-[The 32nd IEEE/ACM International Conference on Automated Software Engineering](http://ase2017.org/) (ASE), 2017
+In the 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE), 2017
 
 
 - [**Scaling BDD-based Timed Verification with Simulation Reduction**](http://lijiaying.github.io/papers/icfem16.pdf)  
 Truong Khanh Nguyen,Tian Huat Tan, Jun Sun, Jiaying Li, Yang Liu, Manman Chen, Jin Song Dong  
-[The 18th International Conference on Formal Engineering Methods](http://icfem2016.xyz/) (ICFEM), 2016
+In the 18th International Conference on Formal Engineering Methods (ICFEM), 2016
 
 
 - [**An Invariant Inference Framework using Active Learning and SVMs**](http://lijiaying.github.io/papers/iceccs15.pdf)  
 Jiaying Li  
-[The 20th International Conference on Engineering of Complex Computer Systems](http://iceccs2015.monash.edu.au/2015/index.jsp) (ICECCS), 2015 
+In the 20th International Conference on Engineering of Complex Computer Systems (ICECCS), 2015 
 
 
 
 ## Preprints
-- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/DeepPoly_Abstraction_Refinement.pdf)  
-Long H. Pham, Jiaying Li, Jun Sun
+- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/preprint21_deeppoly_refine.pdf)  
+Long H. Pham, Jiaying Li, Jun Sun  
+Preprint, 2021
 
 
-- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](https://arxiv.org/pdf/2007.11206.pdf)  
-Long H. Pham, Jiaying Li, Jun Sun
+- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://jiaying.li/papers/preprint20_socrates.pdf)  
+Long H. Pham, Jiaying Li, Jun Sun 
+Preprint, 2020
 
 
-- [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/zimu.pdf)  
-Jiaying Li, Jun Sun
+- [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/preprint18_zimu.pdf)  
+Jiaying Li, Jun Sun  
+Preprint, 2018
+
+
+## Professional Services
+- Program Committee: ICFEM 2023
+- Reviewer/Sub-Reviewer: APSEC2016, ICECCS 2017, SATE18, ICFEM2018, ICFEM2019, TASE 2019, FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022, ICFEM 2023
+
+
+## Supervised/Co-supervised Students
+- Hao Guan, Ph.D. student in SUST and UQ, 2022-
+- Zhongkui Ma, Master student in UQ, 2022-2023
+- Ruijuan Li, Master student in CAS, 2022
+- Bo Gao, Ph.D. student in SUTD, 2018-2021 
+
