@@ -1,7 +1,7 @@
 # LI Jiaying (李家营)
 <table width="80%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="./photos/photo.jpg" width="120"><br></td>
+<td><IMG SRC="./photos/photo.jpg" width="100"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
