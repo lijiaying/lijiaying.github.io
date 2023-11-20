@@ -50,7 +50,7 @@ I welcome all the collabration from academia and industrials. Send me an email i
 
 
 ## Publications
-- [**ReLU Hull Approximation**](http://lijiaying.github.io)   
+- [**ReLU Hull Approximation**](http://lijiaying.github.io/papers/popl24_wralu.pdf)   
 Zhongkui Ma, Jiaying Li, Guangdong Bai  
 In the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2024
 
