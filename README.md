@@ -108,7 +108,7 @@ Preprint, 2022
 
 
 - [**Verifying Smart Contracts by Learning Contract Invariants**](http://lijiaying.github.io/papers/preprint21_xVerify.pdf)   
-Bo Gao, Ling Shi, Jiaying Li, Jun Sun 
+Bo Gao, Ling Shi, Jiaying Li, Jun Sun   
 Preprint, 2021
 
 
