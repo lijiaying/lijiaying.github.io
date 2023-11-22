@@ -102,14 +102,19 @@ In the 20th International Conference on Engineering of Complex Computer Systems 
 
 
 ## Preprints
-- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/preprint21_deeppoly_refine.pdf)  
+- [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/preprint22_deeppoly_refine.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun   
+Preprint, 2022
+
+
+- [**Verifying Smart Contracts by Learning Contract Invariants**](http://lijiaying.github.io/papers/preprint21_xVerify.pdf)   
+Bo Gao, Ling Shi, Jiaying Li, Jun Sun 
 Preprint, 2021
 
 
-- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://jiaying.li/papers/preprint20_socrates.pdf)  
+- [**SOCRATES: Towards a Unified Platform for Neural Network Verification**](http://jiaying.li/papers/preprint21_socrates.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun   
-Preprint, 2020
+Preprint, 2021
 
 
 - [**Learning Invariants with Dynamic States Partitioning**](http://lijiaying.github.io/papers/preprint18_zimu.pdf)  
