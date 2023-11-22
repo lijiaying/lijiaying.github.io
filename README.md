@@ -1,7 +1,7 @@
 # LI Jiaying (李家营)
-<table width="80%" border="0" cellpadding="0">
+<table width="100%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="./photos/photo.jpg" width="100"><br></td>
+<td><IMG SRC="./photos/photo.jpg" width="80"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
@@ -14,7 +14,7 @@
 </tr>
 </table>
 
-[Curriculum Vitae](http://lijiaying.github.io/cv/cv_en.pdf)(might be outdated.)
+[Curriculum Vitae](http://lijiaying.github.io/cv/cv_en_2023_11.pdf)
 
 Currently, I am working for Saas team under Bing Platform in Microsoft, China.   
 Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore,   
@@ -28,10 +28,10 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 
 
 ## Education Background
-* B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
-* M.Sc. (dropped) in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China
 * Ph.D. in [Information Systems Technology and Design](https://istd.sutd.edu.sg/), [Singapore University of Technology and Design](http://www.sutd.edu.sg/), Singapore
 * Visiting Scholar in Department of Computer Science, [University of California, Davis](https://www.ucdavis.edu/), California, USA
+* M.Sc. (dropped) in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China
+* B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
 
 
 
@@ -125,7 +125,7 @@ Preprint, 2018
 
 ## Professional Services
 - **Program Committee**: ICFEM 2023
-- **Reviewer/Sub-Reviewer**: APSEC2016, ICECCS 2017, SATE18, ICFEM2018, ICFEM2019, TASE 2019,   
+- **Reviewer/Sub-Reviewer**: APSEC 2016, ICECCS 2017, SATE 2018, ICFEM2018, ICFEM 2019, TASE 2019,   
 FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022, ICFEM 2023
 
 
