@@ -1,13 +1,13 @@
 # LI Jiaying (李家营)
-<table width="100%" border="0" cellpadding="0">
+<table width="50%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="./photos/photo.jpg" width="80"><br></td>
+<td><IMG SRC="./photos/photo.jpg" width="120"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
 <b>Senior SDE, Microsoft</b> <BR> 
 <P>Address: 8308, Building 2, No. 5, Danling Street, Haidian District, Beijing, China<BR>
-<P>Email: jiayingli@microsoft.com (official), lijiaying1989@gmail.com (personal and perferred)<BR>
+<P>Email: jiayingli@microsoft.com (official), lijiaying1989@gmail.com (perferred)<BR>
 <P>Wechat: lijiayinghahaha<BR>
 </div>
 </td>
@@ -124,7 +124,7 @@ Preprint, 2018
 
 
 ## Professional Services
-- **Program Committee**: ICFEM 2023
+- **Program Committee Members**: ICFEM 2023
 - **Reviewer/Sub-Reviewer**: APSEC 2016, ICECCS 2017, SATE 2018, ICFEM2018, ICFEM 2019, TASE 2019,   
 FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022, ICFEM 2023
 
