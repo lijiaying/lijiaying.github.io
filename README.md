@@ -102,10 +102,6 @@ In the 20th International Conference on Engineering of Complex Computer Systems 
 
 
 ## Preprints
-- [**Support Triangle Machines**](http://jiaying.li/index.html)  
-Jiaying Li 
-Preprint, 2024
-
 - [**Boosting DeepPoly with Abstraction Refinement for Neural Network Verification**](http://jiaying.li/papers/preprint22_deeppoly_refine.pdf)  
 Long H. Pham, Jiaying Li, Jun Sun   
 Preprint, 2022
