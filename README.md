@@ -36,13 +36,12 @@ I also had a wonderful experience when visiting Prof. [Su Zhendong](https://peop
 
 
 ## Research Interests
-**Software Verification, Programming Languages, System Security, Artifitial Intelligence**
+**Formal Verification, Machine Learning, Artifitial Intelligence**
 
 My primary research focuses on the correctness of software systems, including but not limited to  
-classic computer programs, smart contracts and artificial intelligence systems. I also have a broad  
-interest in both the theoretic and practical aspects of software analysis, testing and verification.    
-My vision is to develop new theories and pratices to help practitioners build trustworthy and high-  
-quality software systems.
+classic computer programs, smart contracts and artificial intelligence systems. I do try my best
+to develop elegent theories and techniques to make formal verification more precise, more efficient, 
+more scalable and much easier to design, develop, debug, and apply.
 
 I welcome all the collabration from academia and industrials. Send me an email if you are interested.
 
@@ -51,7 +50,7 @@ I welcome all the collabration from academia and industrials. Send me an email i
 
 ## Publications
 - [**ReLU Hull Approximation**](http://lijiaying.github.io/papers/popl24_wralu.pdf)   
-Zhongkui Ma, Jiaying Li, Guangdong Bai  
+Zhongui Ma, Jiaying Li, Guangdong Bai  
 In the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2024
 
 
@@ -124,7 +123,7 @@ Preprint, 2018
 
 
 ## Professional Services
-- **Program Committee Members**: ICFEM 2023
+- **Program Committee Members**: ICFEM 2023, ICFEM 2024
 - **Reviewer/Sub-Reviewer**: APSEC 2016, ICECCS 2017, SATE 2018, ICFEM2018, ICFEM 2019, TASE 2019,   
 FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022, ICFEM 2023
 
@@ -132,7 +131,7 @@ FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022,
 
 ## Supervised/Co-supervised Students
 - Hao Guan, Ph.D. student in SUST and UQ, 2022-
-- Zhongkui Ma, Master student in UQ, 2022-2023
+- Zhongui Ma, Master student in UQ, 2022-2023
 - Ruijuan Li, Master student in CAS, 2022
 - Bo Gao, Ph.D. student in SUTD, 2019-2021 
 
