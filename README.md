@@ -6,7 +6,6 @@
 <div>
 <b>PhD </b> <BR> 
 <b>Senior SDE, Microsoft</b> <BR> 
-<P>Address: No. 5, Danling Street, Haidian District, Beijing, China<BR>
 <P>Email: lijiaying1989@gmail.com<BR>
 <P>Wechat: lijiayinghahaha<BR>
 </div>
@@ -16,10 +15,10 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv_en_2023_11.pdf)
 
-Currently, I am working for Saas team under Bing Platform in Microsoft, China.   
-Before that, I was a research scientist in SCIS, SMU (Singapore Management University), Singapore,   
+Currently, I am working for Saas team under Bing Platform in Microsoft.   
+Before that, I was a research scientist in SCIS, SMU (Singapore Management University),   
 a research fellow in ISTD, SUTD (Singapore University of Technology and Design).  
-I got my PhD degree from SUTD, and my Bachelor degree from Nankai University, China.  
+I got my PhD degree from SUTD, and my Bachelor degree from Nankai University.  
 
 
 During my early academic exploration years, I had great honors to be supervised by Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore).  
@@ -42,9 +41,6 @@ My primary research focuses on the correctness of software systems, including bu
 classic computer programs, smart contracts and artificial intelligence systems. I do try my best
 to develop elegent theories and techniques to make formal verification more precise, more efficient, 
 more scalable and much easier to design, develop, debug, and apply.
-
-I welcome all the collabration from academia and industrials. Send me an email if you are interested.
-
 
 
 
