@@ -1,7 +1,7 @@
 # LI Jiaying (李家营)
-<table width="50%" border="0" cellpadding="0">
+<table width="60%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="./photos/bigmouth.jpg" width="120"><br></td>
+<td><IMG SRC="./photos/bigmouth.jpg" width="150"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
