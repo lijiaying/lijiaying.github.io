@@ -1,7 +1,7 @@
 # LI Jiaying (李家营)
 <table width="50%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
-<td><IMG SRC="./photos/photo.jpg" width="120"><br></td>
+<td><IMG SRC="./photos/bigmouth.jpg" width="120"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
@@ -15,8 +15,9 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv_en_2023_11.pdf)
 
-Currently, I am working for Saas team under Bing Platform in Microsoft.   
-Before that, I was a research scientist in SCIS, SMU (Singapore Management University),   
+Currently, I am working for OmniVision Technology, Singapore. 
+Before that, I worked for Microsoft Bing for 3 years.   
+I was a research scientist in SCIS, SMU (Singapore Management University),   
 a research fellow in ISTD, SUTD (Singapore University of Technology and Design).  
 I got my PhD degree from SUTD, and my Bachelor degree from Nankai University.  
 
@@ -45,6 +46,11 @@ more scalable and much easier to design, develop, debug, and apply.
 
 
 ## Publications
+- [**Support Triangle Machine**](http://lijiaying.github.io/papers/pldi25_stm.pdf)   
+Jiaying Li, Hao Chunxue
+In the 51st ACM SIGPLAN Symposium on Programming Language Design and Implementation (PLDI), 2025
+
+
 - [**ReLU Hull Approximation**](http://lijiaying.github.io/papers/popl24_wralu.pdf)   
 Zhongui Ma, Jiaying Li, Guangdong Bai  
 In the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2024
@@ -126,7 +132,7 @@ FormaliSE 2019, AST 2020, SETTA 2020, IMLSE 2020, Internetware 2020, SiMLA 2022,
 
 
 ## Supervised/Co-supervised Students
-- Hao Guan, Ph.D. student in SUST and UQ, 2022-
+- Hao Guan, Ph.D. student in SUST and UQ, 2022-2023
 - Zhongui Ma, Master student in UQ, 2022-2023
 - Ruijuan Li, Master student in CAS, 2022
 - Bo Gao, Ph.D. student in SUTD, 2019-2021 
