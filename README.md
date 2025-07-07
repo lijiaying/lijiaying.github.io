@@ -30,7 +30,7 @@ to make formal verification more precise, more efficient and much easier to desi
 ## Selected Publications
 
 - [**Support Triangle Machine**](http://lijiaying.github.io/papers/pldi25_stm.pdf)   
-Jiaying Li, Hao Chunxue
+Jiaying Li, Hao Chunxue  
 In the 51st ACM SIGPLAN Symposium on Programming Language Design and Implementation (PLDI), 2025
 
 
