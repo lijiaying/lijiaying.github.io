@@ -1,11 +1,10 @@
-# LI Jiaying (李家营)
+# LI Jiaying (李家营) @ Research
 <table width="60%" border="0" cellpadding="0">
 <tr valigh="top" aligh="left">
 <td><IMG SRC="./photos/bigmouth.jpg" width="150"><br></td>
 <td>
 <div>
 <b>PhD </b> <BR> 
-<b>Senior SDE, Microsoft</b> <BR> 
 <P>Email: lijiaying1989@gmail.com<BR>
 <P>Wechat: lijiayinghahaha<BR>
 </div>
@@ -15,37 +14,21 @@
 
 [Curriculum Vitae](http://lijiaying.github.io/cv/cv_en_2023_11.pdf)
 
-Currently, I am working for OmniVision Technology, Singapore. 
-Before that, I worked for Microsoft Bing for 3 years.   
-I was a research scientist in SCIS, SMU (Singapore Management University),   
-a research fellow in ISTD, SUTD (Singapore University of Technology and Design).  
-I got my PhD degree from SUTD, and my Bachelor degree from Nankai University.  
-
-
-During my early academic exploration years, I had great honors to be supervised by Prof. [Sun Jun](http://sunjun.site/) (SUTD, Singapore, currently at SMU, Singapore).  
-I also had a wonderful experience when visiting Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/) (UC Davis, US, currently at ETH Zurich, Switzerland)
-
-
-
-## Education Background
-* Ph.D. in [Information Systems Technology and Design](https://istd.sutd.edu.sg/), [Singapore University of Technology and Design](http://www.sutd.edu.sg/), Singapore
-* Visiting Scholar in Department of Computer Science, [University of California, Davis](https://www.ucdavis.edu/), California, USA
-* M.Sc. (dropped) in [Institute of Computing Technology](http://english.ict.cas.cn/), [Chinese Academy of Sciences](http://english.cas.cn/), Beijing, China
-* B.E. in College of Software, [Nankai University](http://www.nankai.edu.cn), Tianjin, China
-
+I got my PhD degree from SUTD, Singapore, and my Bachelor degree from Nankai University, China.  
+During my early academic exploration years, I was supervised by Prof. [Sun Jun](http://sunjun.site/).  
+I had a wonderful experience when visiting Prof. [Su Zhendong](https://people.inf.ethz.ch/suz/).
 
 
 ## Research Interests
-**Formal Verification, Machine Learning, Artifitial Intelligence**
+**Programming Languages, Artifitial Intelligence**
 
-My primary research focuses on the correctness of software systems, including but not limited to  
-classic computer programs, smart contracts and artificial intelligence systems. I do try my best
-to develop elegent theories and techniques to make formal verification more precise, more efficient, 
-more scalable and much easier to design, develop, debug, and apply.
+In recent years, I am spending most of my time to propose elegant theories and develop practical techniques 
+to make formal verification more precise, more efficient and much easier to design, develop, debug, and apply.
 
 
 
-## Publications
+## Selected Publications
+
 - [**Support Triangle Machine**](http://lijiaying.github.io/papers/pldi25_stm.pdf)   
 Jiaying Li, Hao Chunxue
 In the 51st ACM SIGPLAN Symposium on Programming Language Design and Implementation (PLDI), 2025
