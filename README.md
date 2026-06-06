@@ -31,7 +31,7 @@ to make formal verification more precise, more efficient and much easier to desi
 
 - [**Support Triangle Machine**](http://lijiaying.github.io/papers/pldi25_stm.pdf)   
 Jiaying Li, Hao Chunxue  
-In the 51st ACM SIGPLAN Symposium on Programming Language Design and Implementation (PLDI), 2025
+In the 46th ACM SIGPLAN Symposium on Programming Language Design and Implementation (PLDI), 2025
 
 
 - [**ReLU Hull Approximation**](http://lijiaying.github.io/papers/popl24_wralu.pdf)   
